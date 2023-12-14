@@ -1,0 +1,3042 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OpenDRIVE xmlns="http://www.opendrive.org">
+    <header revMajor="1" revMinor="4" date="2020-20-03T16:02:37">
+        <userData code="Created by IPGRoad" value="LibVersion 9.0" />
+    </header>
+    <road name="object 1080" length="16.5058097895998" id="0" junction="35">
+        <link>
+            <predecessor elementType="road" elementId="34" contactPoint="start" />
+            <successor elementType="road" elementId="31" contactPoint="end" />
+        </link>
+        <type s="0" type="unknown">
+            <speed max="70" unit="km/h" />
+        </type>
+        <planView>
+            <geometry s="0" x="-133.93" y="185.243688724276" hdg="-1.5707963267949" length="16.5058097895998">
+                <paramPoly3 aU="0" bU="0.999999999999723" cU="1.21274497713225e-013" dU="-8.69598268596428e-015" aV="0" bV="-3.67381906146611e-016" cV="5.41157012585912e-009" dV="2.83355845270133e-009" pRange="arcLength" />
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0" a="5.99293129049011" b="0.00267019724723465" c="-0.000245714570151263" d="6.65820931313311e-006" />
+            <elevation s="3.30116195791997" a="5.99930785660667" b="0.00126558697335177" c="-0.000179780239245791" d="6.65725701703422e-006" />
+            <elevation s="6.60232391583993" a="6.00176607306039" b="0.000296265375854232" c="-0.000113850496104363" d="6.65711903080685e-006" />
+            <elevation s="9.9034858737599" a="6.00174287756931" b="-0.000237771212919595" c="-4.79217256349379e-005" d="6.65706748913325e-006" />
+            <elevation s="13.2046478316799" a="6.00067520895506" b="-0.000336526388734555" c="1.80066072278508e-005" d="6.6571023910066e-006" />
+        </elevationProfile>
+        <lanes>
+            <laneOffset s="0" a="1" b="0" c="0" d="0" />
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="driving" />
+                </center>
+                <right>
+                    <lane id="-1" type="driving">
+                        <link>
+                            <predecessor id="1" />
+                            <successor id="1" />
+                        </link>
+                        <width sOffset="0" a="2" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="object 1081" length="12.9030862134576" id="1" junction="35">
+        <link>
+            <predecessor elementType="road" elementId="34" contactPoint="start" />
+            <successor elementType="road" elementId="33" contactPoint="start" />
+        </link>
+        <type s="0" type="unknown">
+            <speed max="70" unit="km/h" />
+        </type>
+        <planView>
+            <geometry s="0" x="-133.93" y="185.243688724276" hdg="-1.5707963267949" length="12.9030862134576">
+                <paramPoly3 aU="0" bU="0.919303090590124" cU="-0.0207600765428447" dU="-0.000767945661042863" aV="0" bV="-3.37735321747564e-016" cV="0.104440109663374" dV="-0.00355556949061408" pRange="arcLength" />
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0" a="5.99293129049011" b="0.00267019724723465" c="-0.000504280507559398" d="6.60888807894817e-005" />
+            <elevation s="3.22577155336439" a="5.99851574016698" b="0.00147989360789631" c="-0.000472501510259841" d="7.43800318481139e-005" />
+            <elevation s="6.45154310672878" a="6.00086952339225" b="0.00075343679648493" c="-0.000422159830355837" d="4.75867913058108e-006" />
+            <elevation s="9.67731466009317" a="5.99906684143139" b="-0.00182159478211539" c="-0.000313109277529911" d="6.62777093212148e-005" />
+        </elevationProfile>
+        <lanes>
+            <laneOffset s="0" a="1" b="0" c="0" d="0" />
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="driving" />
+                </center>
+                <right>
+                    <lane id="-1" type="driving">
+                        <link>
+                            <predecessor id="1" />
+                            <successor id="-1" />
+                        </link>
+                        <width sOffset="0" a="2" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="object 1082" length="14.9919878060189" id="2" junction="35">
+        <link>
+            <predecessor elementType="road" elementId="34" contactPoint="start" />
+            <successor elementType="road" elementId="33" contactPoint="start" />
+        </link>
+        <type s="0" type="unknown">
+            <speed max="70" unit="km/h" />
+        </type>
+        <planView>
+            <geometry s="0" x="-133.93" y="185.243688724276" hdg="-1.5707963267949" length="14.9919878060189">
+                <paramPoly3 aU="0" bU="0.920003673988731" cU="0.00748349821927715" dU="-0.00169720329513099" aV="0" bV="-3.37992703411959e-016" cV="0.0687728222593771" dV="-0.00169377778379969" pRange="arcLength" />
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0" a="5.99293129049011" b="0.00267019724723465" c="-0.000342289565864633" d="2.61776858007253e-005" />
+            <elevation s="3.74799695150471" a="5.99950912838098" b="0.00120758839184003" c="-0.000241484738087793" d="2.13306026241127e-005" />
+            <elevation s="7.49599390300943" a="6.00176596813383" b="0.000296343982209055" c="-3.79496709640524e-005" d="-4.28179169962959e-005" />
+            <elevation s="11.2439908545141" a="6.00008920743284" b="-0.00179257816542726" c="-0.000249182024865226" d="4.3440448964823e-005" />
+        </elevationProfile>
+        <lanes>
+            <laneOffset s="0" a="1" b="0" c="0" d="0" />
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="driving" />
+                </center>
+                <right>
+                    <lane id="-1" type="driving">
+                        <link>
+                            <predecessor id="1" />
+                            <successor id="-2" />
+                        </link>
+                        <width sOffset="0" a="2" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="object 1083" length="12.9012737388748" id="3" junction="35">
+        <link>
+            <predecessor elementType="road" elementId="32" contactPoint="end" />
+            <successor elementType="road" elementId="31" contactPoint="end" />
+        </link>
+        <type s="0" type="unknown">
+            <speed max="70" unit="km/h" />
+        </type>
+        <planView>
+            <geometry s="0" x="-140.68" y="178.48980501984" hdg="-1.98469278659961e-016" length="12.9012737388748">
+                <paramPoly3 aU="0" bU="0.919299382341789" cU="-0.0208495144255198" dU="-0.00076367848573849" aV="0" bV="-4.07608658222071e-016" cV="-0.104514214962113" dV="0.00355964717199478" pRange="arcLength" />
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0" a="6" b="0" c="6.46639988586526e-005" d="1.2021720664564e-006" />
+            <elevation s="3.22531843471871" a="6.00071301404324" b="0.000454641405512431" c="-0.000112534723342176" d="1.85993066079999e-005" />
+            <elevation s="6.45063686943742" a="6.0016327577951" b="0.000309168619124374" c="-0.000375388208091816" d="5.70360928785711e-005" />
+            <elevation s="9.67595530415613" a="6.00063855428206" b="-0.000332339898541134" c="2.19310765046186e-005" d="6.11606048880897e-006" />
+        </elevationProfile>
+        <lanes>
+            <laneOffset s="0" a="1" b="0" c="0" d="0" />
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="driving" />
+                </center>
+                <right>
+                    <lane id="-1" type="driving">
+                        <link>
+                            <predecessor id="-1" />
+                            <successor id="1" />
+                        </link>
+                        <width sOffset="0" a="2" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="object 1084" length="10.3770773855179" id="4" junction="35">
+        <link>
+            <predecessor elementType="road" elementId="32" contactPoint="end" />
+            <successor elementType="road" elementId="31" contactPoint="end" />
+        </link>
+        <type s="0" type="unknown">
+            <speed max="70" unit="km/h" />
+        </type>
+        <planView>
+            <geometry s="0" x="-140.68" y="175.48980501984" hdg="-1.98469278659961e-016" length="10.3770773855179">
+                <paramPoly3 aU="0" bU="0.92003878235545" cU="0.0107294899069972" dU="-0.00353726580495439" aV="0" bV="-4.07936501200373e-016" cV="-0.0994436588482514" dV="0.00354070898355379" pRange="arcLength" />
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0" a="6" b="0" c="0.000106760528911745" d="-1.20042848485375e-005" />
+            <elevation s="3.45902579517262" a="6.00078055629768" b="0.000307686103730893" c="-0.000119961820783088" d="5.32021310351805e-006" />
+            <elevation s="6.91805159034524" a="6.00062971051151" b="-0.000331249155208859" c="3.36375202781575e-005" d="2.74533849668205e-006" />
+        </elevationProfile>
+        <lanes>
+            <laneOffset s="0" a="1" b="0" c="0" d="0" />
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="driving" />
+                </center>
+                <right>
+                    <lane id="-1" type="driving">
+                        <link>
+                            <predecessor id="-2" />
+                            <successor id="1" />
+                        </link>
+                        <width sOffset="0" a="2" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="object 1085" length="16.5000143479645" id="5" junction="35">
+        <link>
+            <predecessor elementType="road" elementId="32" contactPoint="end" />
+            <successor elementType="road" elementId="33" contactPoint="start" />
+        </link>
+        <type s="0" type="unknown">
+            <speed max="70" unit="km/h" />
+        </type>
+        <planView>
+            <geometry s="0" x="-140.68" y="178.48980501984" hdg="-1.98469278659961e-016" length="16.5000143479645">
+                <paramPoly3 aU="0" bU="0.999999998673021" cU="-1.20773039374099e-009" dU="4.87971425569427e-011" aV="0" bV="-4.43390548836067e-016" cV="-2.09564855693047e-005" dV="8.46725953374393e-007" pRange="arcLength" />
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0" a="6" b="0" c="9.16844881497153e-005" d="-6.75348978219793e-006" />
+            <elevation s="3.30000286959291" a="6.00075574501695" b="0.000384481253078992" c="-2.24021289196598e-005" d="7.78667093278178e-007" />
+            <elevation s="6.60000573918582" a="6.00180855767953" b="0.000262066171819133" c="-0.000238163739994395" d="4.81100091328045e-005" />
+            <elevation s="9.90000860877872" a="6.00180870306787" b="0.000261940852872313" c="-0.000220970178400461" d="-2.10428414887037e-005" />
+            <elevation s="13.2000114783716" a="5.99951052063886" b="-0.00188393441980587" c="-0.000346708395439871" d="7.34482179341537e-005" />
+        </elevationProfile>
+        <lanes>
+            <laneOffset s="0" a="1" b="0" c="0" d="0" />
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="driving" />
+                </center>
+                <right>
+                    <lane id="-1" type="driving">
+                        <link>
+                            <predecessor id="-1" />
+                            <successor id="-1" />
+                        </link>
+                        <width sOffset="0" a="2" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="object 1086" length="16.8246024652653" id="6" junction="35">
+        <link>
+            <predecessor elementType="road" elementId="32" contactPoint="end" />
+            <successor elementType="road" elementId="33" contactPoint="start" />
+        </link>
+        <type s="0" type="unknown">
+            <speed max="70" unit="km/h" />
+        </type>
+        <planView>
+            <geometry s="0" x="-140.68" y="178.48980501984" hdg="-1.98469278659961e-016" length="16.8246024652653">
+                <paramPoly3 aU="0" bU="0.996805966871017" cU="-0.00287051836211398" dU="0.00011374289003421" aV="0" bV="-4.41974345320497e-016" cV="-0.0318147206118497" dV="0.00126064278695566" pRange="arcLength" />
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0" a="6" b="0" c="0.00010142414182938" d="-7.23024612467247e-006" />
+            <elevation s="3.36492049305306" a="6.0008729220831" b="0.000436970841819747" c="1.58907644693443e-005" d="-1.45315205176311e-005" />
+            <elevation s="6.72984098610612" a="6.0019695701974" b="5.03054569853615e-005" c="-7.84042191087491e-006" d="-2.67639810551612e-006" />
+            <elevation s="10.0947614791592" a="6.0019480987567" b="-9.33714133284875e-005" c="1.28904707261022e-005" d="-5.32071270059167e-005" />
+            <elevation s="13.4596819722122" a="5.99975267722641" b="-0.00181396399770316" c="-0.000390472045650171" d="7.68963566523835e-005" />
+        </elevationProfile>
+        <lanes>
+            <laneOffset s="0" a="1" b="0" c="0" d="0" />
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="driving" />
+                </center>
+                <right>
+                    <lane id="-1" type="driving">
+                        <link>
+                            <predecessor id="-1" />
+                            <successor id="-2" />
+                        </link>
+                        <width sOffset="0" a="2" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="object 1087" length="16.8237879653068" id="7" junction="35">
+        <link>
+            <predecessor elementType="road" elementId="32" contactPoint="end" />
+            <successor elementType="road" elementId="33" contactPoint="start" />
+        </link>
+        <type s="0" type="unknown">
+            <speed max="70" unit="km/h" />
+        </type>
+        <planView>
+            <geometry s="0" x="-140.68" y="175.48980501984" hdg="-1.98469278659961e-016" length="16.8237879653068">
+                <paramPoly3 aU="0" bU="0.996813782517138" cU="-0.00286358450523569" dU="0.000113473632737201" aV="0" bV="-4.41977810704125e-016" cV="0.0317774859509675" dV="-0.0012592283424913" pRange="arcLength" />
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0" a="6" b="0" c="0.000145185790432223" d="-1.48788091949508e-005" />
+            <elevation s="3.36475759306136" a="6.0010769349442" b="0.000471674485969577" c="-7.72312826999795e-005" d="4.16150748169933e-006" />
+            <elevation s="6.72951518612271" a="6.00194815425823" b="9.32900863587676e-005" c="-3.48491934397729e-005" d="2.67995965507312e-006" />
+            <elevation s="10.0942727791841" a="6.00196959588111" b="-5.02038473980694e-005" c="-1.19599926379254e-005" d="-5.24957045224301e-005" />
+            <elevation s="13.4590303722454" a="5.99966547260402" b="-0.0019136939059876" c="-0.000325172854326293" d="6.85797209234173e-005" />
+        </elevationProfile>
+        <lanes>
+            <laneOffset s="0" a="1" b="0" c="0" d="0" />
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="driving" />
+                </center>
+                <right>
+                    <lane id="-1" type="driving">
+                        <link>
+                            <predecessor id="-2" />
+                            <successor id="-1" />
+                        </link>
+                        <width sOffset="0" a="2" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="object 1088" length="16.5000143479645" id="8" junction="35">
+        <link>
+            <predecessor elementType="road" elementId="32" contactPoint="end" />
+            <successor elementType="road" elementId="33" contactPoint="start" />
+        </link>
+        <type s="0" type="unknown">
+            <speed max="70" unit="km/h" />
+        </type>
+        <planView>
+            <geometry s="0" x="-140.68" y="175.48980501984" hdg="-1.98469278659961e-016" length="16.5000143479645">
+                <paramPoly3 aU="0" bU="0.999999998673021" cU="-1.20773039374099e-009" dU="4.87971425569427e-011" aV="0" bV="-4.43390548836067e-016" cV="-2.09564855693047e-005" dV="8.46725953374393e-007" pRange="arcLength" />
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0" a="6" b="0" c="0.000149909861874335" d="-1.67877329405972e-005" />
+            <elevation s="3.30000286959291" a="6.00102921890247" b="0.000440949759716742" c="6.40638149232879e-006" d="-2.16187474462549e-005" />
+            <elevation s="6.60000573918582" a="6.00177720503694" b="-0.000223053793069362" c="0.000202757920181663" d="-4.09629203215763e-005" />
+            <elevation s="9.90000860877872" a="6.00177707616275" b="-0.000223111290541328" c="8.54792109845533e-005" d="-6.49467134397054e-005" />
+            <elevation s="13.2000114783716" a="5.99963768236066" b="-0.00178076082567603" c="-0.00042696425857003" d="8.47555594188951e-005" />
+        </elevationProfile>
+        <lanes>
+            <laneOffset s="0" a="1" b="0" c="0" d="0" />
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="driving" />
+                </center>
+                <right>
+                    <lane id="-1" type="driving">
+                        <link>
+                            <predecessor id="-2" />
+                            <successor id="-2" />
+                        </link>
+                        <width sOffset="0" a="2" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="object 1089" length="12.9019099209878" id="9" junction="35">
+        <link>
+            <predecessor elementType="road" elementId="32" contactPoint="end" />
+            <successor elementType="road" elementId="34" contactPoint="start" />
+        </link>
+        <type s="0" type="unknown">
+            <speed max="70" unit="km/h" />
+        </type>
+        <planView>
+            <geometry s="0" x="-140.68" y="178.48980501984" hdg="-1.98469278659961e-016" length="12.9019099209878">
+                <paramPoly3 aU="0" bU="0.919302054611825" cU="0.0332122992206569" dU="-0.00355703858306734" aV="0" bV="-4.07609843081351e-016" cV="0.0504681915856127" dV="-0.000766894401466717" pRange="arcLength" />
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0" a="6" b="0" c="6.0585386012213e-005" d="-4.11534563952179e-006" />
+            <elevation s="3.22547748024694" a="6.00049221417351" b="0.000262389070710977" c="0.000179556336094161" d="-6.96694000325122e-005" />
+            <elevation s="6.45095496049389" a="6.00086870514706" b="-0.000753760743565317" c="0.000247555723831954" d="-7.4437467808133e-005" />
+            <elevation s="9.67643244074083" a="5.99851507169629" b="-0.00148006628152856" c="0.00013544188829484" d="-6.61259667480328e-005" />
+        </elevationProfile>
+        <lanes>
+            <laneOffset s="0" a="1" b="0" c="0" d="0" />
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="driving" />
+                </center>
+                <right>
+                    <lane id="-1" type="driving">
+                        <link>
+                            <predecessor id="-1" />
+                            <successor id="-1" />
+                        </link>
+                        <width sOffset="0" a="2" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="object 1090" length="14.9905147927502" id="10" junction="35">
+        <link>
+            <predecessor elementType="road" elementId="32" contactPoint="end" />
+            <successor elementType="road" elementId="34" contactPoint="start" />
+        </link>
+        <type s="0" type="unknown">
+            <speed max="70" unit="km/h" />
+        </type>
+        <planView>
+            <geometry s="0" x="-140.68" y="175.48980501984" hdg="-1.98469278659961e-016" length="14.9905147927502">
+                <paramPoly3 aU="0" bU="0.92000367505505" cU="0.00741979235511187" dU="-0.00169467099151006" aV="0" bV="-4.0792093495516e-016" cV="0.068844027623406" dV="-0.00169697681747205" pRange="arcLength" />
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0" a="6" b="0" c="0.000115345824441517" d="-8.36524369128714e-006" />
+            <elevation s="3.74762869818755" a="6.00117970033281" b="0.000512084106087496" c="-6.89827629975093e-005" d="-6.92170887956138e-006" />
+            <elevation s="7.49525739637509" a="6.00176563778767" b="-0.000296599865743409" c="-1.56415717933525e-006" d="-2.1346980004957e-005" />
+            <elevation s="11.2428860945626" a="5.99950853800599" b="-0.00120776075249872" c="-4.78761150925828e-005" d="-2.61924428613259e-005" />
+        </elevationProfile>
+        <lanes>
+            <laneOffset s="0" a="1" b="0" c="0" d="0" />
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="driving" />
+                </center>
+                <right>
+                    <lane id="-1" type="driving">
+                        <link>
+                            <predecessor id="-2" />
+                            <successor id="-1" />
+                        </link>
+                        <width sOffset="0" a="2" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="object 1091" length="12.899552294211" id="11" junction="35">
+        <link>
+            <predecessor elementType="road" elementId="31" contactPoint="end" />
+            <successor elementType="road" elementId="33" contactPoint="start" />
+        </link>
+        <type s="0" type="unknown">
+            <speed max="70" unit="km/h" />
+        </type>
+        <planView>
+            <geometry s="0" x="-130.929985783523" y="168.737886418437" hdg="1.57079882137852" length="12.899552294211">
+                <paramPoly3 aU="0" bU="0.919299737351248" cU="0.0332510273145703" dU="-0.00356002668792021" aV="0" bV="-4.67304265351935e-016" cV="-0.0504302651937684" dV="0.000764742600676257" pRange="arcLength" />
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0" a="6" b="0" c="8.11016957737528e-005" d="-6.11445499187419e-006" />
+            <elevation s="3.22488807355274" a="6.00063837998422" b="0.000332318564855741" c="0.000200363348215643" d="-6.50312794828814e-005" />
+            <elevation s="6.44977614710548" a="6.00161277647357" b="-0.000404339703792261" c="6.52160771332505e-005" d="-7.37110240416368e-005" />
+            <elevation s="9.67466422065822" a="5.99851490816008" b="-0.00228347312450926" c="0.000131918188947091" d="-1.08983076583918e-005" />
+        </elevationProfile>
+        <lanes>
+            <laneOffset s="0" a="1" b="0" c="0" d="0" />
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="driving" />
+                </center>
+                <right>
+                    <lane id="-1" type="driving">
+                        <link>
+                            <predecessor id="-1" />
+                            <successor id="-1" />
+                        </link>
+                        <width sOffset="0" a="2" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="object 1092" length="10.3756033658769" id="12" junction="35">
+        <link>
+            <predecessor elementType="road" elementId="31" contactPoint="end" />
+            <successor elementType="road" elementId="33" contactPoint="start" />
+        </link>
+        <type s="0" type="unknown">
+            <speed max="70" unit="km/h" />
+        </type>
+        <planView>
+            <geometry s="0" x="-130.929985783523" y="168.737886418437" hdg="1.57079882137852" length="10.3756033658769">
+                <paramPoly3 aU="0" bU="0.920038390702891" cU="0.0107578542182565" dU="-0.00354000848589863" aV="0" bV="-4.67679924464042e-016" cV="-0.0994313456572585" dV="0.00354001739092257" pRange="arcLength" />
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0" a="6" b="0" c="6.2107754641256e-005" d="-2.74168622377752e-006" />
+            <elevation s="3.45853445529229" a="6.00062947830264" b="0.00033121990368287" c="-0.00011048800073168" d="-3.41412503944057e-005" />
+            <elevation s="6.91706891058458" a="5.99904102228107" b="-0.00165817087324854" c="-0.000238511306500596" d="4.11937311991354e-005" />
+        </elevationProfile>
+        <lanes>
+            <laneOffset s="0" a="1" b="0" c="0" d="0" />
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="driving" />
+                </center>
+                <right>
+                    <lane id="-1" type="driving">
+                        <link>
+                            <predecessor id="-1" />
+                            <successor id="-2" />
+                        </link>
+                        <width sOffset="0" a="2" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="object 1093" length="16.5058023058489" id="13" junction="35">
+        <link>
+            <predecessor elementType="road" elementId="31" contactPoint="end" />
+            <successor elementType="road" elementId="34" contactPoint="start" />
+        </link>
+        <type s="0" type="unknown">
+            <speed max="70" unit="km/h" />
+        </type>
+        <planView>
+            <geometry s="0" x="-130.929985783523" y="168.737886418437" hdg="1.57079882137852" length="16.5058023058489">
+                <paramPoly3 aU="0" bU="0.999999999999723" cU="-5.37573892068255e-014" dU="-1.62743640180061e-015" aV="0" bV="-5.08326494503934e-016" cV="-1.45722198416011e-007" dV="2.83356230155077e-009" pRange="arcLength" />
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0" a="6" b="0" c="8.39352630144961e-005" d="-6.65712735506526e-006" />
+            <elevation s="3.30116046116979" a="6.0006752083298" b="0.000336526203849319" c="1.80065991285846e-005" d="-6.65711048962516e-006" />
+            <elevation s="6.60232092233958" a="6.00174287607561" b="0.000237770762126028" c="-4.79218762793082e-005" d="-6.65712364219887e-006" />
+            <elevation s="9.90348138350937" a="6.00176606965367" b="-0.00029626606215938" c="-0.000113850268651586" d="-6.65726162856932e-006" />
+            <elevation s="13.2046418446792" a="5.99930785178837" b="-0.00126558780196784" c="-0.000179779312647652" d="-6.65748606329888e-006" />
+        </elevationProfile>
+        <lanes>
+            <laneOffset s="0" a="1" b="0" c="0" d="0" />
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="driving" />
+                </center>
+                <right>
+                    <lane id="-1" type="driving">
+                        <link>
+                            <predecessor id="-1" />
+                            <successor id="-1" />
+                        </link>
+                        <width sOffset="0" a="2" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="connection between object 140 and 46" length="5" id="14" junction="36">
+        <link>
+            <predecessor elementType="road" elementId="25" contactPoint="start" />
+            <successor elementType="road" elementId="24" contactPoint="end" />
+        </link>
+        <type s="0" type="motorway">
+            <speed max="no limit" unit="km/h" />
+        </type>
+        <planView>
+            <geometry s="0" x="-295" y="-5.81827296973946e-016" hdg="3.14159265358979" length="5">
+                <paramPoly3 aU="0" bU="1" cU="4.47851474513705e-034" dU="-5.97135299351607e-035" aV="0" bV="-2.44921270764475e-016" cV="3.65710559246913e-018" dV="-4.87614078995884e-019" pRange="arcLength" />
+            </geometry>
+        </planView>
+        <lanes>
+            <laneSection s="0">
+                <left>
+                    <lane id="5" type="border">
+                        <link>
+                            <predecessor id="-5" />
+                            <successor id="-5" />
+                        </link>
+                        <width sOffset="0" a="0.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="4" type="driving">
+                        <link>
+                            <predecessor id="-4" />
+                            <successor id="-4" />
+                        </link>
+                        <width sOffset="0" a="3.7481875" b="0.000712499999999999" c="-6.7499999999967e-005" d="-5.00000000003498e-007" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="3" type="driving">
+                        <link>
+                            <predecessor id="-3" />
+                            <successor id="-3" />
+                        </link>
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="2" type="driving">
+                        <link>
+                            <predecessor id="-2" />
+                            <successor id="-2" />
+                        </link>
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="1" type="median">
+                        <link>
+                            <predecessor id="-1" />
+                            <successor id="-1" />
+                        </link>
+                        <width sOffset="0" a="2.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0" type="driving" />
+                </center>
+                <right>
+                    <lane id="-1" type="median">
+                        <link>
+                            <predecessor id="1" />
+                            <successor id="1" />
+                        </link>
+                        <width sOffset="0" a="2.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="5" max="300" unit="km/h" />
+                    </lane>
+                    <lane id="-2" type="driving">
+                        <link>
+                            <predecessor id="2" />
+                            <successor id="2" />
+                        </link>
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="5" max="300" unit="km/h" />
+                    </lane>
+                    <lane id="-3" type="driving">
+                        <link>
+                            <predecessor id="3" />
+                            <successor id="3" />
+                        </link>
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="5" max="300" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+        <objects>
+            <object type="IPGRoad Traffic barrier" name="object 311" id="41" s="1e-007" t="-2" zOffset="0" validLength="4.9999998" orientation="none" hdg="0" pitch="0" roll="0" length="4.9999998" width="0.205" height="0.75">
+                <repeat s="1e-007" length="4.9999998" distance="0" tStart="-2" tEnd="-2" heightStart="0.75" heightEnd="0.75" zOffsetStart="0" zOffsetEnd="0" widthStart="0.205" widthEnd="0.205" />
+                <userData code="IPGRoad" value="Traffic barrier">
+                    <parameters side="L" type="1" interval="10.000000" detectability="0.000000" visibility="1" pType="2" eType0="0" eType1="0" material0="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 0 0 0 0 0" />
+                </userData>
+            </object>
+        </objects>
+    </road>
+    <road name="connection between object 140 and 660" length="5" id="15" junction="36">
+        <link>
+            <predecessor elementType="road" elementId="25" contactPoint="start" />
+            <successor elementType="road" elementId="32" contactPoint="start" />
+        </link>
+        <type s="0" type="motorway">
+            <speed max="no limit" unit="km/h" />
+        </type>
+        <planView>
+            <geometry s="0" x="-295" y="-5.81827296973946e-016" hdg="3.14159265358979" length="5">
+                <paramPoly3 aU="0" bU="1" cU="4.47851474513705e-034" dU="-5.97135299351607e-035" aV="0" bV="-2.44921270764475e-016" cV="3.65710559246913e-018" dV="-4.87614078995884e-019" pRange="arcLength" />
+            </geometry>
+        </planView>
+        <lanes>
+            <laneOffset s="0" a="-10.25" b="0" c="0" d="0" />
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="driving" />
+                </center>
+                <right>
+                    <lane id="-1" type="driving">
+                        <link>
+                            <predecessor id="4" />
+                            <successor id="-1" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="5" max="300" unit="km/h" />
+                    </lane>
+                    <lane id="-2" type="border">
+                        <link>
+                            <predecessor id="5" />
+                            <successor id="-2" />
+                        </link>
+                        <width sOffset="0" a="0.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="5" max="300" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+        <objects>
+            <object type="IPGRoad Traffic barrier" name="object 312" id="42" s="1e-007" t="2" zOffset="0" validLength="4.9999998" orientation="none" hdg="0" pitch="0" roll="0" length="4.9999998" width="0.205" height="0.75">
+                <repeat s="1e-007" length="4.9999998" distance="0" tStart="2" tEnd="2" heightStart="0.75" heightEnd="0.75" zOffsetStart="0" zOffsetEnd="0" widthStart="0.205" widthEnd="0.205" />
+                <userData code="IPGRoad" value="Traffic barrier">
+                    <parameters side="L" type="1" interval="10.000000" detectability="0.000000" visibility="1" pType="2" eType0="0" eType1="0" material0="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 0 0 0 0 0" />
+                </userData>
+            </object>
+        </objects>
+    </road>
+    <road name="connection between object 140 and 219" length="5" id="16" junction="37">
+        <link>
+            <predecessor elementType="road" elementId="25" contactPoint="end" />
+            <successor elementType="road" elementId="26" contactPoint="start" />
+        </link>
+        <type s="0" type="motorway">
+            <speed max="no limit" unit="km/h" />
+        </type>
+        <planView>
+            <geometry s="0" x="-7" y="1.18266501419752e-015" hdg="-0" length="5">
+                <paramPoly3 aU="0" bU="1" cU="-2.27618924053362e-032" dU="2.23509993573968e-033" aV="0" bV="-2.44921270764475e-016" cV="-9.29355475508077e-017" dV="9.12578939658135e-018" pRange="arcLength" />
+            </geometry>
+        </planView>
+        <lanes>
+            <laneSection s="0">
+                <left>
+                    <lane id="3" type="driving">
+                        <link>
+                            <predecessor id="3" />
+                            <successor id="3" />
+                        </link>
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="2" type="driving">
+                        <link>
+                            <predecessor id="2" />
+                            <successor id="2" />
+                        </link>
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="1" type="median">
+                        <link>
+                            <predecessor id="1" />
+                            <successor id="1" />
+                        </link>
+                        <width sOffset="0" a="2.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0" type="driving" />
+                </center>
+                <right>
+                    <lane id="-1" type="median">
+                        <link>
+                            <predecessor id="-1" />
+                            <successor id="-1" />
+                        </link>
+                        <width sOffset="0" a="2.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="5" max="300" unit="km/h" />
+                    </lane>
+                    <lane id="-2" type="driving">
+                        <link>
+                            <predecessor id="-2" />
+                            <successor id="-2" />
+                        </link>
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="5" max="300" unit="km/h" />
+                    </lane>
+                    <lane id="-3" type="driving">
+                        <link>
+                            <predecessor id="-3" />
+                            <successor id="-3" />
+                        </link>
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="5" max="300" unit="km/h" />
+                    </lane>
+                    <lane id="-4" type="driving">
+                        <link>
+                            <predecessor id="-4" />
+                            <successor id="-4" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="5" max="300" unit="km/h" />
+                    </lane>
+                    <lane id="-5" type="border">
+                        <link>
+                            <predecessor id="-5" />
+                            <successor id="-5" />
+                        </link>
+                        <width sOffset="0" a="0.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="5" max="300" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+        <objects>
+            <object type="IPGRoad Traffic barrier" name="object 560" id="43" s="1e-007" t="2" zOffset="0" validLength="4.9999998" orientation="none" hdg="0" pitch="0" roll="0" length="4.9999998" width="0.205" height="0.75">
+                <repeat s="1e-007" length="4.9999998" distance="0" tStart="2" tEnd="2" heightStart="0.75" heightEnd="0.75" zOffsetStart="0" zOffsetEnd="0" widthStart="0.205" widthEnd="0.205" />
+                <userData code="IPGRoad" value="Traffic barrier">
+                    <parameters side="L" type="1" interval="10.000000" detectability="0.000000" visibility="1" pType="2" eType0="0" eType1="0" material0="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 0 0 0 0 0" />
+                </userData>
+            </object>
+        </objects>
+    </road>
+    <road name="connection between object 140 and 820" length="5" id="17" junction="37">
+        <link>
+            <predecessor elementType="road" elementId="25" contactPoint="end" />
+            <successor elementType="road" elementId="33" contactPoint="end" />
+        </link>
+        <type s="0" type="motorway">
+            <speed max="no limit" unit="km/h" />
+        </type>
+        <planView>
+            <geometry s="0" x="-7" y="1.18266501419752e-015" hdg="-0" length="5">
+                <paramPoly3 aU="0" bU="1" cU="-2.27618924053362e-032" dU="2.23509993573968e-033" aV="0" bV="-2.44921270764475e-016" cV="-9.29355475508077e-017" dV="9.12578939658135e-018" pRange="arcLength" />
+            </geometry>
+        </planView>
+        <lanes>
+            <laneOffset s="0" a="10.25" b="0" c="0" d="0" />
+            <laneSection s="0">
+                <left>
+                    <lane id="2" type="border">
+                        <link>
+                            <predecessor id="5" />
+                            <successor id="-2" />
+                        </link>
+                        <width sOffset="0" a="0.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="1" type="driving">
+                        <link>
+                            <predecessor id="4" />
+                            <successor id="-1" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0" type="driving" />
+                </center>
+            </laneSection>
+        </lanes>
+        <objects>
+            <object type="IPGRoad Traffic barrier" name="object 561" id="44" s="1e-007" t="-2" zOffset="0" validLength="4.9999998" orientation="none" hdg="0" pitch="0" roll="0" length="4.9999998" width="0.205" height="0.75">
+                <repeat s="1e-007" length="4.9999998" distance="0" tStart="-2" tEnd="-2" heightStart="0.75" heightEnd="0.75" zOffsetStart="0" zOffsetEnd="0" widthStart="0.205" widthEnd="0.205" />
+                <userData code="IPGRoad" value="Traffic barrier">
+                    <parameters side="L" type="1" interval="10.000000" detectability="0.000000" visibility="1" pType="2" eType0="0" eType1="0" material0="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 0 0 0 0 0" />
+                </userData>
+            </object>
+        </objects>
+    </road>
+    <road name="connection between object 219 and 283" length="1" id="18" junction="38">
+        <link>
+            <predecessor elementType="road" elementId="26" contactPoint="end" />
+            <successor elementType="road" elementId="27" contactPoint="start" />
+        </link>
+        <type s="0" type="motorway">
+            <speed max="no limit" unit="km/h" />
+        </type>
+        <planView>
+            <geometry s="0" x="-1" y="6.12303176911189e-017" hdg="6.12303176911189e-017" length="1">
+                <paramPoly3 aU="0" bU="1" cU="-1.49966072182214e-032" dU="-1.49966072182214e-032" aV="0" bV="-1.83690953073357e-016" cV="-6.12303176911189e-017" dV="-6.12303176911189e-017" pRange="arcLength" />
+            </geometry>
+        </planView>
+        <lanes>
+            <laneSection s="0">
+                <left>
+                    <lane id="3" type="driving">
+                        <link>
+                            <predecessor id="3" />
+                            <successor id="3" />
+                        </link>
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="300" unit="km/h" />
+                    </lane>
+                    <lane id="2" type="driving">
+                        <link>
+                            <predecessor id="2" />
+                            <successor id="2" />
+                        </link>
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="300" unit="km/h" />
+                    </lane>
+                    <lane id="1" type="median">
+                        <link>
+                            <predecessor id="1" />
+                            <successor id="1" />
+                        </link>
+                        <width sOffset="0" a="2.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="300" unit="km/h" />
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0" type="driving" />
+                </center>
+                <right>
+                    <lane id="-1" type="median">
+                        <link>
+                            <predecessor id="-1" />
+                            <successor id="-1" />
+                        </link>
+                        <width sOffset="0" a="2.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="1" max="300" unit="km/h" />
+                    </lane>
+                    <lane id="-2" type="driving">
+                        <link>
+                            <predecessor id="-2" />
+                            <successor id="-2" />
+                        </link>
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="1" max="300" unit="km/h" />
+                    </lane>
+                    <lane id="-3" type="driving">
+                        <link>
+                            <predecessor id="-3" />
+                            <successor id="-3" />
+                        </link>
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="1" max="300" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+        <objects>
+            <object type="IPGRoad Traffic barrier" name="object 770" id="45" s="1e-007" t="2" zOffset="0" validLength="0.9999998" orientation="none" hdg="0" pitch="0" roll="0" length="0.9999998" width="0.205" height="0.75">
+                <repeat s="1e-007" length="0.9999998" distance="0" tStart="2" tEnd="2" heightStart="0.75" heightEnd="0.75" zOffsetStart="0" zOffsetEnd="0" widthStart="0.205" widthEnd="0.205" />
+                <userData code="IPGRoad" value="Traffic barrier">
+                    <parameters side="L" type="1" interval="10.000000" detectability="0.000000" visibility="1" pType="2" eType0="0" eType1="0" material0="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 0 0 0 0 0" />
+                </userData>
+            </object>
+        </objects>
+    </road>
+    <road name="connection between object 219 and 451" length="1" id="19" junction="38">
+        <link>
+            <predecessor elementType="road" elementId="26" contactPoint="end" />
+            <successor elementType="road" elementId="29" contactPoint="start" />
+        </link>
+        <type s="0" type="motorway">
+            <speed max="no limit" unit="km/h" />
+        </type>
+        <planView>
+            <geometry s="0" x="-1" y="6.12303176911189e-017" hdg="6.12303176911189e-017" length="1">
+                <paramPoly3 aU="0" bU="1" cU="-1.49966072182214e-032" dU="-1.49966072182214e-032" aV="0" bV="-1.83690953073357e-016" cV="-6.12303176911189e-017" dV="-6.12303176911189e-017" pRange="arcLength" />
+            </geometry>
+        </planView>
+        <lanes>
+            <laneOffset s="0" a="-10.25" b="0" c="0" d="0" />
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="driving" />
+                </center>
+                <right>
+                    <lane id="-1" type="driving">
+                        <link>
+                            <predecessor id="-4" />
+                            <successor id="-1" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="1" max="300" unit="km/h" />
+                    </lane>
+                    <lane id="-2" type="border">
+                        <link>
+                            <predecessor id="-5" />
+                            <successor id="-2" />
+                        </link>
+                        <width sOffset="0" a="0.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="1" max="300" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+        <objects>
+            <object type="IPGRoad Traffic barrier" name="object 771" id="46" s="1e-007" t="-2" zOffset="0" validLength="0.9999998" orientation="none" hdg="0" pitch="0" roll="0" length="0.9999998" width="0.205" height="0.75">
+                <repeat s="1e-007" length="0.9999998" distance="0" tStart="-2" tEnd="-2" heightStart="0.75" heightEnd="0.75" zOffsetStart="0" zOffsetEnd="0" widthStart="0.205" widthEnd="0.205" />
+                <userData code="IPGRoad" value="Traffic barrier">
+                    <parameters side="L" type="1" interval="10.000000" detectability="0.000000" visibility="1" pType="2" eType0="0" eType1="0" material0="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 0 0 0 0 0" />
+                </userData>
+            </object>
+        </objects>
+    </road>
+    <road name="connection between object 360 and 283" length="5" id="20" junction="39">
+        <link>
+            <predecessor elementType="road" elementId="28" contactPoint="start" />
+            <successor elementType="road" elementId="27" contactPoint="end" />
+        </link>
+        <type s="0" type="motorway">
+            <speed max="no limit" unit="km/h" />
+        </type>
+        <planView>
+            <geometry s="0" x="214.03" y="0" hdg="3.14159265358979" length="5">
+                <line />
+            </geometry>
+        </planView>
+        <lanes>
+            <laneSection s="0">
+                <left>
+                    <lane id="3" type="driving">
+                        <link>
+                            <predecessor id="-3" />
+                            <successor id="-3" />
+                        </link>
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="2" type="driving">
+                        <link>
+                            <predecessor id="-2" />
+                            <successor id="-2" />
+                        </link>
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="1" type="median">
+                        <link>
+                            <predecessor id="-1" />
+                            <successor id="-1" />
+                        </link>
+                        <width sOffset="0" a="2.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0" type="driving" />
+                </center>
+                <right>
+                    <lane id="-1" type="median">
+                        <link>
+                            <predecessor id="1" />
+                            <successor id="1" />
+                        </link>
+                        <width sOffset="0" a="2.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="5" max="300" unit="km/h" />
+                    </lane>
+                    <lane id="-2" type="driving">
+                        <link>
+                            <predecessor id="2" />
+                            <successor id="2" />
+                        </link>
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="5" max="300" unit="km/h" />
+                    </lane>
+                    <lane id="-3" type="driving">
+                        <link>
+                            <predecessor id="3" />
+                            <successor id="3" />
+                        </link>
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="5" max="300" unit="km/h" />
+                    </lane>
+                    <lane id="-4" type="border">
+                        <link>
+                            <predecessor id="4" />
+                        </link>
+                        <width sOffset="0" a="0" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="5" max="300" unit="km/h" />
+                    </lane>
+                    <lane id="-5" type="border">
+                        <link>
+                            <predecessor id="5" />
+                            <successor id="4" />
+                        </link>
+                        <width sOffset="0" a="1" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="5" max="300" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+        <objects>
+            <object type="IPGRoad Traffic barrier" name="object 1110" id="47" s="1e-007" t="-2" zOffset="0" validLength="4.9999998" orientation="none" hdg="0" pitch="0" roll="0" length="4.9999998" width="0.205" height="0.75">
+                <repeat s="1e-007" length="4.9999998" distance="0" tStart="-2" tEnd="-2" heightStart="0.75" heightEnd="0.75" zOffsetStart="0" zOffsetEnd="0" widthStart="0.205" widthEnd="0.205" />
+                <userData code="IPGRoad" value="Traffic barrier">
+                    <parameters side="L" type="1" interval="10.000000" detectability="0.000000" visibility="1" pType="2" eType0="0" eType1="0" material0="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 0 0 0 0 0" />
+                </userData>
+            </object>
+        </objects>
+    </road>
+    <road name="connection between object 360 and 501" length="5" id="21" junction="39">
+        <link>
+            <predecessor elementType="road" elementId="28" contactPoint="start" />
+            <successor elementType="road" elementId="30" contactPoint="start" />
+        </link>
+        <type s="0" type="motorway">
+            <speed max="no limit" unit="km/h" />
+        </type>
+        <planView>
+            <geometry s="0" x="214.03" y="0" hdg="3.14159265358979" length="5">
+                <line />
+            </geometry>
+        </planView>
+        <lanes>
+            <laneOffset s="0" a="10.25" b="0" c="0" d="0" />
+            <laneSection s="0">
+                <left>
+                    <lane id="2" type="border">
+                        <link>
+                            <predecessor id="-5" />
+                            <successor id="2" />
+                        </link>
+                        <width sOffset="0" a="0.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="1" type="driving">
+                        <link>
+                            <predecessor id="-4" />
+                            <successor id="1" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0" type="driving" />
+                </center>
+            </laneSection>
+        </lanes>
+        <objects>
+            <object type="IPGRoad Traffic barrier" name="object 1111" id="48" s="1e-007" t="2" zOffset="0" validLength="4.9999998" orientation="none" hdg="0" pitch="0" roll="0" length="4.9999998" width="0.205" height="0.75">
+                <repeat s="1e-007" length="4.9999998" distance="0" tStart="2" tEnd="2" heightStart="0.75" heightEnd="0.75" zOffsetStart="0" zOffsetEnd="0" widthStart="0.205" widthEnd="0.205" />
+                <userData code="IPGRoad" value="Traffic barrier">
+                    <parameters side="L" type="1" interval="10.000000" detectability="0.000000" visibility="1" pType="2" eType0="0" eType1="0" material0="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 0 0 0 0 0" />
+                </userData>
+            </object>
+        </objects>
+    </road>
+    <road name="connection between object 594 and 451" length="5" id="22" junction="40">
+        <link>
+            <predecessor elementType="road" elementId="31" contactPoint="start" />
+            <successor elementType="road" elementId="29" contactPoint="end" />
+        </link>
+        <type s="0" type="rural">
+            <speed max="100" unit="km/h" />
+        </type>
+        <planView>
+            <geometry s="0" x="60.1044660940672" y="-167.425533905933" hdg="0.785398163397448" length="5">
+                <line />
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0" a="2.00406442107402" b="0" c="-0.000487730528882686" d="6.50307371843581e-005" />
+        </elevationProfile>
+        <lanes>
+            <laneSection s="0">
+                <left>
+                    <lane id="2" type="border">
+                        <link>
+                            <predecessor id="-2" />
+                            <successor id="-2" />
+                        </link>
+                        <width sOffset="0" a="0.25" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="1" type="driving">
+                        <link>
+                            <predecessor id="-1" />
+                            <successor id="-1" />
+                        </link>
+                        <width sOffset="0" a="3" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0" type="driving" />
+                </center>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="connection between object 594 and 501" length="5" id="23" junction="40">
+        <link>
+            <predecessor elementType="road" elementId="31" contactPoint="start" />
+            <successor elementType="road" elementId="30" contactPoint="end" />
+        </link>
+        <type s="0" type="rural">
+            <speed max="100" unit="km/h" />
+        </type>
+        <planView>
+            <geometry s="0" x="60.1044660940672" y="-167.425533905933" hdg="0.785398163397448" length="5">
+                <line />
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0" a="2.00406442107402" b="0" c="-0.000487730528882686" d="6.50307371843581e-005" />
+        </elevationProfile>
+        <lanes>
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="driving" />
+                </center>
+                <right>
+                    <lane id="-1" type="driving">
+                        <link>
+                            <predecessor id="1" />
+                            <successor id="1" />
+                        </link>
+                        <width sOffset="0" a="3" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-2" type="border">
+                        <link>
+                            <predecessor id="2" />
+                            <successor id="2" />
+                        </link>
+                        <width sOffset="0" a="0.25" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="object 46" length="2500" id="24" junction="-1">
+        <link>
+            <successor elementType="junction" elementId="36" />
+        </link>
+        <type s="0" type="motorway">
+            <speed max="no limit" unit="km/h" />
+        </type>
+        <planView>
+            <geometry s="0" x="-2800" y="0" hdg="0" length="2500">
+                <line />
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0" a="0" b="0" c="0" d="0" />
+            <elevation s="50" a="0" b="0" c="0" d="0" />
+        </elevationProfile>
+        <lanes>
+            <laneSection s="0">
+                <left>
+                    <lane id="5" type="border">
+                        <link>
+                            <successor id="5" />
+                        </link>
+                        <width sOffset="0" a="0.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="300" unit="km/h" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="4" type="driving">
+                        <link>
+                            <successor id="4" />
+                        </link>
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="300" unit="km/h" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="3" type="driving">
+                        <link>
+                            <successor id="3" />
+                        </link>
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="300" unit="km/h" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="2" type="driving">
+                        <link>
+                            <successor id="2" />
+                        </link>
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="300" unit="km/h" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="1" type="median">
+                        <link>
+                            <successor id="1" />
+                        </link>
+                        <width sOffset="0" a="2.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="300" unit="km/h" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0" type="driving" />
+                </center>
+                <right>
+                    <lane id="-1" type="median">
+                        <link>
+                            <successor id="-1" />
+                        </link>
+                        <width sOffset="0" a="2.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-2" type="driving">
+                        <link>
+                            <successor id="-2" />
+                        </link>
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-3" type="driving">
+                        <link>
+                            <successor id="-3" />
+                        </link>
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-4" type="driving">
+                        <link>
+                            <successor id="-4" />
+                        </link>
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-5" type="border">
+                        <link>
+                            <successor id="-5" />
+                        </link>
+                        <width sOffset="0" a="0.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+            <laneSection s="2455">
+                <left>
+                    <lane id="5" type="border">
+                        <link>
+                            <predecessor id="5" />
+                        </link>
+                        <width sOffset="0" a="0.75" b="0" c="-0.0036" d="9.6e-005" />
+                        <width sOffset="25" a="0" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="300" unit="km/h" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="4" type="border">
+                        <link>
+                            <predecessor id="4" />
+                        </link>
+                        <width sOffset="0" a="3.75" b="0" c="-0.018" d="0.00048" />
+                        <width sOffset="25" a="0" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="300" unit="km/h" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="3" type="driving">
+                        <link>
+                            <predecessor id="3" />
+                        </link>
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="300" unit="km/h" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="2" type="driving">
+                        <link>
+                            <predecessor id="2" />
+                        </link>
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="300" unit="km/h" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="1" type="median">
+                        <link>
+                            <predecessor id="1" />
+                        </link>
+                        <width sOffset="0" a="2.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="300" unit="km/h" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0" type="driving" />
+                </center>
+                <right>
+                    <lane id="-1" type="median">
+                        <link>
+                            <predecessor id="-1" />
+                        </link>
+                        <width sOffset="0" a="2.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="45" max="300" unit="km/h" />
+                    </lane>
+                    <lane id="-2" type="driving">
+                        <link>
+                            <predecessor id="-2" />
+                        </link>
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="45" max="300" unit="km/h" />
+                    </lane>
+                    <lane id="-3" type="driving">
+                        <link>
+                            <predecessor id="-3" />
+                        </link>
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="45" max="300" unit="km/h" />
+                    </lane>
+                    <lane id="-4" type="driving">
+                        <link>
+                            <predecessor id="-4" />
+                        </link>
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="45" max="300" unit="km/h" />
+                    </lane>
+                    <lane id="-5" type="border">
+                        <link>
+                            <predecessor id="-5" />
+                        </link>
+                        <width sOffset="0" a="0.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="45" max="300" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+        <objects>
+            <object type="IPGRoad Mount" name="object 134" id="49" s="2400" t="-14.65" zOffset="0" validLength="0.0399999999999636" orientation="none" hdg="0" pitch="0" roll="0" radius="0.04" height="2.775">
+                <userData code="IPGRoad" value="Mount">
+                    <parameters s="2400" t="-14.65" side="R" type="1" rotZ="0" />
+                </userData>
+            </object>
+            <object type="IPGRoad Mount" name="object 136" id="50" s="2400" t="14.65" zOffset="0" validLength="0.0399999999999636" orientation="none" hdg="0" pitch="0" roll="0" radius="0.04" height="2.775">
+                <userData code="IPGRoad" value="Mount">
+                    <parameters s="2400" t="14.65" side="L" type="1" rotZ="0" />
+                </userData>
+            </object>
+            <object type="IPGRoad Mount" name="object 138" id="51" s="2480.1" t="10.57" zOffset="0" validLength="0.0399999999999636" orientation="none" hdg="0" pitch="0" roll="0" radius="0.04" height="1.2">
+                <userData code="IPGRoad" value="Mount">
+                    <parameters s="2480.1" t="10.57" side="L" type="1" rotZ="0" />
+                </userData>
+            </object>
+            <object type="IPGRoad Traffic barrier" name="object 131" id="52" s="1e-007" t="2" zOffset="0" validLength="2499.9999998" orientation="none" hdg="0" pitch="0" roll="0" length="2499.9999998" width="0.205" height="0.75">
+                <repeat s="1e-007" length="2499.9999998" distance="0" tStart="2" tEnd="2" heightStart="0.75" heightEnd="0.75" zOffsetStart="0" zOffsetEnd="0" widthStart="0.205" widthEnd="0.205" />
+                <userData code="IPGRoad" value="Traffic barrier">
+                    <parameters side="L" type="1" interval="10.000000" detectability="0.000000" visibility="1" pType="2" eType0="0" eType1="0" material0="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 0 0 0 0 0" material1="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 0 0 0 0 0" />
+                </userData>
+            </object>
+            <object type="IPGRoad Traffic barrier" name="object 132" id="53" s="1e-007" t="-2" zOffset="0" validLength="2499.9999998" orientation="none" hdg="0" pitch="0" roll="0" length="2499.9999998" width="0.205" height="0.75">
+                <repeat s="1e-007" length="2499.9999998" distance="0" tStart="-2" tEnd="-2" heightStart="0.75" heightEnd="0.75" zOffsetStart="0" zOffsetEnd="0" widthStart="0.205" widthEnd="0.205" />
+                <userData code="IPGRoad" value="Traffic barrier">
+                    <parameters side="L" type="1" interval="10.000000" detectability="0.000000" visibility="1" pType="2" eType0="0" eType1="0" material0="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 0 0 0 0 0" material1="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 0 0 0 0 0" />
+                </userData>
+            </object>
+            <object type="IPGRoad Traffic barrier" name="object 133" id="54" s="2425" t="10.55" zOffset="0" validLength="55" orientation="none" hdg="0" pitch="0" roll="0" length="55" width="0.205" height="0.75">
+                <repeat s="2425" length="55" distance="0" tStart="10.55" tEnd="10.55" heightStart="0.75" heightEnd="0.75" zOffsetStart="0" zOffsetEnd="0" widthStart="0.205" widthEnd="0.205" />
+                <userData code="IPGRoad" value="Traffic barrier">
+                    <parameters side="L" type="1" interval="10.000000" detectability="0.000000" visibility="1" pType="2" eType0="0" eType1="0" material0="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 0 0 0 0 0" material1="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 0 0 0 0 0" />
+                </userData>
+            </object>
+            <object type="IPGRoad Guide posts" name="object 117" id="55" s="1e-007" t="14.315" zOffset="0" validLength="0.0600000999997974" orientation="none" hdg="0" pitch="0" roll="0" length="0.12" width="0.13" height="1.15">
+                <repeat s="1e-007" length="2450.06" distance="50" tStart="14.315" tEnd="14.315" heightStart="1.15" heightEnd="1.15" zOffsetStart="0" zOffsetEnd="0" widthStart="0.13" widthEnd="0.13" />
+                <userData code="IPGRoad" value="Guide posts">
+                    <parameters s0="1e-007" s1="2460" t="14.25" side="L" />
+                </userData>
+            </object>
+            <object type="IPGRoad Guide posts" name="object 118" id="56" s="1e-007" t="-14.315" zOffset="0" validLength="0.0600000999997974" orientation="none" hdg="0" pitch="0" roll="0" length="0.12" width="0.13" height="1.15">
+                <repeat s="1e-007" length="2450.06" distance="50" tStart="-14.315" tEnd="-14.315" heightStart="1.15" heightEnd="1.15" zOffsetStart="0" zOffsetEnd="0" widthStart="0.13" widthEnd="0.13" />
+                <userData code="IPGRoad" value="Guide posts">
+                    <parameters s0="1e-007" s1="2499.9999999" t="-14.25" side="R" />
+                </userData>
+            </object>
+        </objects>
+        <signals>
+            <signal s="2399.96" t="-14.65" id="57" name="object 135" dynamic="no" orientation="+" zOffset="2.125" country="DEU" type="274" subtype="60" value="100" unit="km/h" height="0.75" width="0.75" hOffset="0" pitch="0" roll="0" />
+            <signal s="2400.04" t="14.65" id="58" name="object 137" dynamic="no" orientation="-" zOffset="2.125" country="DEU" type="282" subtype="-1" height="0.75" width="0.75" hOffset="0" pitch="0" roll="0" />
+            <signal s="2480.14" t="10.57" id="59" name="object 139" dynamic="no" orientation="-" zOffset="0.3" country="DEU" type="605" subtype="10" height="1" width="0.25" hOffset="0" pitch="0" roll="0" />
+        </signals>
+    </road>
+    <road name="object 140" length="288" id="25" junction="-1">
+        <link>
+            <predecessor elementType="junction" elementId="36" />
+            <successor elementType="junction" elementId="37" />
+        </link>
+        <type s="0" type="motorway">
+            <speed max="no limit" unit="km/h" />
+        </type>
+        <planView>
+            <geometry s="0" x="-295" y="-5.81827296973946e-016" hdg="0" length="288">
+                <paramPoly3 aU="0" bU="1" cU="2.23917059856166e-034" dU="-7.59398531338562e-037" aV="0" bV="-2.44921270764475e-016" cV="9.14240968770295e-019" dV="-3.10058219512026e-021" pRange="arcLength" />
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0" a="0" b="0" c="0" d="0" />
+            <elevation s="45" a="0" b="0" c="0" d="-0" />
+        </elevationProfile>
+        <lanes>
+            <laneSection s="0">
+                <left>
+                    <lane id="5" type="border">
+                        <width sOffset="0" a="0.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="4" type="driving">
+                        <width sOffset="0" a="3.5" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="3" type="driving">
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="2" type="driving">
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="1" type="median">
+                        <width sOffset="0" a="2.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0" type="driving" />
+                </center>
+                <right>
+                    <lane id="-1" type="median">
+                        <width sOffset="0" a="2.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-2" type="driving">
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-3" type="driving">
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-4" type="driving">
+                        <width sOffset="0" a="3.7481875" b="-0.000712499999999999" c="-6.74999999999999e-005" d="5e-007" />
+                        <width sOffset="95" a="3.5" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-5" type="border">
+                        <width sOffset="0" a="0.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+        <objects>
+            <object type="IPGRoad Traffic barrier" name="object 217" id="60" s="1e-007" t="2" zOffset="0" validLength="287.9999998" orientation="none" hdg="0" pitch="0" roll="0" length="287.9999998" width="0.205" height="0.75">
+                <repeat s="1e-007" length="287.9999998" distance="0" tStart="2" tEnd="2" heightStart="0.75" heightEnd="0.75" zOffsetStart="0" zOffsetEnd="0" widthStart="0.205" widthEnd="0.205" />
+                <userData code="IPGRoad" value="Traffic barrier">
+                    <parameters side="L" type="1" interval="10.000000" detectability="0.000000" visibility="1" pType="2" eType0="0" eType1="0" material0="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 0 0 0 0 0" material1="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 0 0 0 0 0" />
+                </userData>
+            </object>
+            <object type="IPGRoad Traffic barrier" name="object 218" id="61" s="1e-007" t="-2" zOffset="0" validLength="287.9999998" orientation="none" hdg="0" pitch="0" roll="0" length="287.9999998" width="0.205" height="0.75">
+                <repeat s="1e-007" length="287.9999998" distance="0" tStart="-2" tEnd="-2" heightStart="0.75" heightEnd="0.75" zOffsetStart="0" zOffsetEnd="0" widthStart="0.205" widthEnd="0.205" />
+                <userData code="IPGRoad" value="Traffic barrier">
+                    <parameters side="L" type="1" interval="10.000000" detectability="0.000000" visibility="1" pType="2" eType0="0" eType1="0" material0="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 0 0 0 0 0" material1="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 0 0 0 0 0" />
+                </userData>
+            </object>
+        </objects>
+    </road>
+    <road name="object 219" length="1" id="26" junction="-1">
+        <link>
+            <predecessor elementType="junction" elementId="37" />
+            <successor elementType="junction" elementId="38" />
+        </link>
+        <type s="0" type="motorway">
+            <speed max="no limit" unit="km/h" />
+        </type>
+        <planView>
+            <geometry s="0" x="-2" y="0" hdg="0" length="1">
+                <paramPoly3 aU="0" bU="1" cU="1.0497625052755e-031" dU="-8.99796433093282e-032" aV="0" bV="-2.44921270764475e-016" cV="4.28612223837832e-016" dV="-3.67381906146713e-016" pRange="arcLength" />
+            </geometry>
+        </planView>
+        <lanes>
+            <laneSection s="0">
+                <left>
+                    <lane id="3" type="driving">
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="300" unit="km/h" />
+                    </lane>
+                    <lane id="2" type="driving">
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="300" unit="km/h" />
+                    </lane>
+                    <lane id="1" type="median">
+                        <width sOffset="0" a="2.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="300" unit="km/h" />
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0" type="driving" />
+                </center>
+                <right>
+                    <lane id="-1" type="median">
+                        <width sOffset="0" a="2.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-2" type="driving">
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-3" type="driving">
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-4" type="driving">
+                        <width sOffset="0" a="3.5" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-5" type="border">
+                        <width sOffset="0" a="0.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+        <objects>
+            <object type="IPGRoad Traffic barrier" name="object 281" id="62" s="1e-007" t="2" zOffset="0" validLength="0.9999998" orientation="none" hdg="0" pitch="0" roll="0" length="0.9999998" width="0.205" height="0.75">
+                <repeat s="1e-007" length="0.9999998" distance="0" tStart="2" tEnd="2" heightStart="0.75" heightEnd="0.75" zOffsetStart="0" zOffsetEnd="0" widthStart="0.205" widthEnd="0.205" />
+                <userData code="IPGRoad" value="Traffic barrier">
+                    <parameters side="L" type="1" interval="10.000000" detectability="0.000000" visibility="1" pType="2" eType0="0" eType1="0" material0="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 0 0 0 0 0" material1="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 0 0 0 0 0" />
+                </userData>
+            </object>
+            <object type="IPGRoad Traffic barrier" name="object 282" id="63" s="1e-007" t="-2" zOffset="0" validLength="0.9999998" orientation="none" hdg="0" pitch="0" roll="0" length="0.9999998" width="0.205" height="0.75">
+                <repeat s="1e-007" length="0.9999998" distance="0" tStart="-2" tEnd="-2" heightStart="0.75" heightEnd="0.75" zOffsetStart="0" zOffsetEnd="0" widthStart="0.205" widthEnd="0.205" />
+                <userData code="IPGRoad" value="Traffic barrier">
+                    <parameters side="L" type="1" interval="10.000000" detectability="0.000000" visibility="1" pType="2" eType0="0" eType1="0" material0="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 0 0 0 0 0" material1="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 0 0 0 0 0" />
+                </userData>
+            </object>
+        </objects>
+    </road>
+    <road name="object 283" length="209.03" id="27" junction="-1">
+        <link>
+            <predecessor elementType="junction" elementId="38" />
+            <successor elementType="junction" elementId="39" />
+        </link>
+        <type s="0" type="motorway">
+            <speed max="no limit" unit="km/h" />
+        </type>
+        <planView>
+            <geometry s="0" x="0" y="0" hdg="0" length="209.03">
+                <paramPoly3 aU="0" bU="1" cU="2.86975213475987e-034" dU="-1.37289008025636e-036" aV="0" bV="-2.44921270764475e-016" cV="1.17170392175513e-018" dV="-5.605434252285e-021" pRange="arcLength" />
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0" a="0" b="0" c="0" d="0" />
+            <elevation s="50" a="0" b="0" c="0" d="-0" />
+        </elevationProfile>
+        <lanes>
+            <laneSection s="0">
+                <left>
+                    <lane id="4" type="border">
+                        <width sOffset="0" a="0" b="0" c="0" d="0" />
+                        <width sOffset="10" a="0" b="0" c="0.00333333333333333" d="-7.40740740740741e-005" />
+                        <width sOffset="40" a="1" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="300" unit="km/h" />
+                    </lane>
+                    <lane id="3" type="driving">
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="300" unit="km/h" />
+                    </lane>
+                    <lane id="2" type="driving">
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="300" unit="km/h" />
+                    </lane>
+                    <lane id="1" type="median">
+                        <width sOffset="0" a="2.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="300" unit="km/h" />
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0" type="driving" />
+                </center>
+                <right>
+                    <lane id="-1" type="median">
+                        <width sOffset="0" a="2.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="209.03" max="300" unit="km/h" />
+                    </lane>
+                    <lane id="-2" type="driving">
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="209.03" max="300" unit="km/h" />
+                    </lane>
+                    <lane id="-3" type="driving">
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="209.03" max="300" unit="km/h" />
+                    </lane>
+                    <lane id="-4" type="border">
+                        <width sOffset="0" a="0" b="0" c="0" d="0" />
+                        <width sOffset="15" a="0" b="0" c="0.00333333333333333" d="-7.40740740740741e-005" />
+                        <width sOffset="45" a="1" b="0" c="0" d="0" />
+                        <width sOffset="169.03" a="1" b="0" c="-0.00333333333333333" d="7.40740740740741e-005" />
+                        <width sOffset="199.03" a="0" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="209.03" max="300" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+        <objects>
+            <object type="IPGRoad Mount" name="object 358" id="64" s="19.9" t="-10.5056592962963" zOffset="0" validLength="0.0399999999999991" orientation="none" hdg="0" pitch="0" roll="0" radius="0.04" height="1.2">
+                <userData code="IPGRoad" value="Mount">
+                    <parameters s="19.9" t="-10.5056592962963" side="R" type="1" rotZ="0" />
+                </userData>
+            </object>
+            <object type="IPGRoad Traffic barrier" name="object 355" id="65" s="1e-007" t="2" zOffset="0" validLength="209.0299998" orientation="none" hdg="0" pitch="0" roll="0" length="209.0299998" width="0.205" height="0.75">
+                <repeat s="1e-007" length="209.0299998" distance="0" tStart="2" tEnd="2" heightStart="0.75" heightEnd="0.75" zOffsetStart="0" zOffsetEnd="0" widthStart="0.205" widthEnd="0.205" />
+                <userData code="IPGRoad" value="Traffic barrier">
+                    <parameters side="L" type="1" interval="10.000000" detectability="0.000000" visibility="1" pType="2" eType0="0" eType1="0" material0="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 0 0 0 0 0" material1="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 0 0 0 0 0" />
+                </userData>
+            </object>
+            <object type="IPGRoad Traffic barrier" name="object 356" id="66" s="1e-007" t="-2" zOffset="0" validLength="209.0299998" orientation="none" hdg="0" pitch="0" roll="0" length="209.0299998" width="0.205" height="0.75">
+                <repeat s="1e-007" length="209.0299998" distance="0" tStart="-2" tEnd="-2" heightStart="0.75" heightEnd="0.75" zOffsetStart="0" zOffsetEnd="0" widthStart="0.205" widthEnd="0.205" />
+                <userData code="IPGRoad" value="Traffic barrier">
+                    <parameters side="L" type="1" interval="10.000000" detectability="0.000000" visibility="1" pType="2" eType0="0" eType1="0" material0="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 0 0 0 0 0" material1="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 0 0 0 0 0" />
+                </userData>
+            </object>
+            <object type="IPGRoad Traffic barrier" name="object 357" id="67" s="20" t="-10.45" zOffset="0" validLength="169.03" orientation="none" hdg="0" pitch="0" roll="0" length="169.03" width="0.205" height="0.75">
+                <repeat s="20" length="169.03" distance="0" tStart="-10.45" tEnd="-10.45" heightStart="0.75" heightEnd="0.75" zOffsetStart="0" zOffsetEnd="0" widthStart="0.205" widthEnd="0.205" />
+                <userData code="IPGRoad" value="Traffic barrier">
+                    <parameters side="R" type="1" interval="10.000000" detectability="0.000000" visibility="1" pType="2" eType0="0" eType1="0" material0="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 0 0 0 0 0" material1="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 0 0 0 0 0" />
+                </userData>
+            </object>
+            <object type="IPGRoad Guide posts" name="object 345" id="68" s="50" t="10.815" zOffset="0" validLength="0.120000000000005" orientation="none" hdg="0" pitch="0" roll="0" length="0.12" width="0.13" height="1.15">
+                <repeat s="50" length="150.06" distance="50" tStart="10.815" tEnd="10.815" heightStart="1.15" heightEnd="1.15" zOffsetStart="0" zOffsetEnd="0" widthStart="0.13" widthEnd="0.13" />
+                <userData code="IPGRoad" value="Guide posts">
+                    <parameters s0="50" s1="209.0299999" t="10.75" side="L" />
+                </userData>
+            </object>
+            <object type="IPGRoad Guide posts" name="object 346" id="69" s="50" t="-10.815" zOffset="0" validLength="0.120000000000005" orientation="none" hdg="0" pitch="0" roll="0" length="0.12" width="0.13" height="1.15">
+                <repeat s="50" length="100.06" distance="50" tStart="-10.815" tEnd="-10.815" heightStart="1.15" heightEnd="1.15" zOffsetStart="0" zOffsetEnd="0" widthStart="0.13" widthEnd="0.13" />
+                <userData code="IPGRoad" value="Guide posts">
+                    <parameters s0="50" s1="159.03" t="-10.75" side="R" />
+                </userData>
+            </object>
+        </objects>
+        <signals>
+            <signal s="19.86" t="-10.5056592962963" id="70" name="object 359" dynamic="no" orientation="+" zOffset="0.3" country="DEU" type="605" subtype="10" height="1" width="0.25" hOffset="0" pitch="0" roll="0" />
+        </signals>
+    </road>
+    <road name="object 360" length="2495" id="28" junction="-1">
+        <link>
+            <predecessor elementType="junction" elementId="39" />
+        </link>
+        <type s="0" type="motorway">
+            <speed max="no limit" unit="km/h" />
+        </type>
+        <planView>
+            <geometry s="0" x="214.03" y="0" hdg="0" length="2495">
+                <line />
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0" a="0" b="0" c="0" d="0" />
+            <elevation s="45" a="0" b="0" c="0" d="-0" />
+        </elevationProfile>
+        <lanes>
+            <laneSection s="0">
+                <left>
+                    <lane id="5" type="border">
+                        <link>
+                            <successor id="5" />
+                        </link>
+                        <width sOffset="0" a="1" b="0" c="0" d="0" />
+                        <width sOffset="145" a="1" b="0" c="0.00291666666666667" d="-3.24074074074074e-005" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="0" max="300" unit="km/h" />
+                    </lane>
+                    <lane id="4" type="border">
+                        <width sOffset="0" a="0" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="0" max="300" unit="km/h" />
+                    </lane>
+                    <lane id="3" type="driving">
+                        <link>
+                            <successor id="3" />
+                        </link>
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="0" max="300" unit="km/h" />
+                    </lane>
+                    <lane id="2" type="driving">
+                        <link>
+                            <successor id="2" />
+                        </link>
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="0" max="300" unit="km/h" />
+                    </lane>
+                    <lane id="1" type="median">
+                        <link>
+                            <successor id="1" />
+                        </link>
+                        <width sOffset="0" a="2.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="0" max="300" unit="km/h" />
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0" type="driving" />
+                </center>
+                <right>
+                    <lane id="-1" type="median">
+                        <link>
+                            <successor id="-1" />
+                        </link>
+                        <width sOffset="0" a="2.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-2" type="driving">
+                        <link>
+                            <successor id="-2" />
+                        </link>
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-3" type="driving">
+                        <link>
+                            <successor id="-3" />
+                        </link>
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-4" type="driving">
+                        <link>
+                            <successor id="-4" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="0" d="0" />
+                        <width sOffset="5" a="3.5" b="0" c="2.07756232686981e-005" d="-7.28969237498178e-008" />
+                        <width sOffset="195" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-5" type="border">
+                        <link>
+                            <successor id="-5" />
+                        </link>
+                        <width sOffset="0" a="0.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+            <laneSection s="205">
+                <left>
+                    <lane id="5" type="border">
+                        <link>
+                            <predecessor id="5" />
+                        </link>
+                        <width sOffset="0" a="4.5" b="0" c="-0.02625" d="0.000875" />
+                        <width sOffset="20" a="1" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="0" max="300" unit="km/h" />
+                    </lane>
+                    <lane id="4" type="driving">
+                        <width sOffset="0" a="0" b="0" c="0.028125" d="-0.0009375" />
+                        <width sOffset="20" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="0" max="300" unit="km/h" />
+                    </lane>
+                    <lane id="3" type="driving">
+                        <link>
+                            <predecessor id="3" />
+                        </link>
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="0" max="300" unit="km/h" />
+                    </lane>
+                    <lane id="2" type="driving">
+                        <link>
+                            <predecessor id="2" />
+                        </link>
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="0" max="300" unit="km/h" />
+                    </lane>
+                    <lane id="1" type="median">
+                        <link>
+                            <predecessor id="1" />
+                        </link>
+                        <width sOffset="0" a="2.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="0" max="300" unit="km/h" />
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0" type="driving" />
+                </center>
+                <right>
+                    <lane id="-1" type="median">
+                        <link>
+                            <predecessor id="-1" />
+                        </link>
+                        <width sOffset="0" a="2.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="10" max="300" unit="km/h" />
+                    </lane>
+                    <lane id="-2" type="driving">
+                        <link>
+                            <predecessor id="-2" />
+                        </link>
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="10" max="300" unit="km/h" />
+                    </lane>
+                    <lane id="-3" type="driving">
+                        <link>
+                            <predecessor id="-3" />
+                        </link>
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="10" max="300" unit="km/h" />
+                    </lane>
+                    <lane id="-4" type="driving">
+                        <link>
+                            <predecessor id="-4" />
+                        </link>
+                        <width sOffset="0" a="3.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="10" max="300" unit="km/h" />
+                    </lane>
+                    <lane id="-5" type="border">
+                        <link>
+                            <predecessor id="-5" />
+                        </link>
+                        <width sOffset="0" a="0.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                        <speed sOffset="10" max="300" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+        <objects>
+            <object type="IPGRoad Mount" name="object 447" id="71" s="215" t="-14.65" zOffset="0" validLength="0.0399999999999636" orientation="none" hdg="0" pitch="0" roll="0" radius="0.04" height="2.775">
+                <userData code="IPGRoad" value="Mount">
+                    <parameters s="215" t="-14.65" side="R" type="1" rotZ="0" />
+                </userData>
+            </object>
+            <object type="IPGRoad Mount" name="object 449" id="72" s="405" t="14.9" zOffset="0" validLength="0.0399999999999636" orientation="none" hdg="0" pitch="0" roll="0" radius="0.04" height="2.775">
+                <userData code="IPGRoad" value="Mount">
+                    <parameters s="405" t="14.9" side="L" type="1" rotZ="0" />
+                </userData>
+            </object>
+            <object type="IPGRoad Traffic barrier" name="object 445" id="73" s="1e-007" t="2" zOffset="0" validLength="2494.9999998" orientation="none" hdg="0" pitch="0" roll="0" length="2494.9999998" width="0.205" height="0.75">
+                <repeat s="1e-007" length="2494.9999998" distance="0" tStart="2" tEnd="2" heightStart="0.75" heightEnd="0.75" zOffsetStart="0" zOffsetEnd="0" widthStart="0.205" widthEnd="0.205" />
+                <userData code="IPGRoad" value="Traffic barrier">
+                    <parameters side="L" type="1" interval="10.000000" detectability="0.000000" visibility="1" pType="2" eType0="0" eType1="0" material0="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 0 0 0 0 0" material1="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 0 0 0 0 0" />
+                </userData>
+            </object>
+            <object type="IPGRoad Traffic barrier" name="object 446" id="74" s="1e-007" t="-2" zOffset="0" validLength="2494.9999998" orientation="none" hdg="0" pitch="0" roll="0" length="2494.9999998" width="0.205" height="0.75">
+                <repeat s="1e-007" length="2494.9999998" distance="0" tStart="-2" tEnd="-2" heightStart="0.75" heightEnd="0.75" zOffsetStart="0" zOffsetEnd="0" widthStart="0.205" widthEnd="0.205" />
+                <userData code="IPGRoad" value="Traffic barrier">
+                    <parameters side="L" type="1" interval="10.000000" detectability="0.000000" visibility="1" pType="2" eType0="0" eType1="0" material0="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 0 0 0 0 0" material1="Textures/Infrastructure/GuardRail_01.jpg 0 0 0 0 0 0 0 0 0 0 0" />
+                </userData>
+            </object>
+            <object type="IPGRoad Guide posts" name="object 434" id="75" s="35.9699999999998" t="10.815" zOffset="0" validLength="0.120000000000005" orientation="none" hdg="0" pitch="0" roll="0" length="0.12" width="0.13" height="1.15">
+                <repeat s="35.9699999999998" length="2450.06" distance="50" tStart="10.815" tEnd="10.815" heightStart="1.15" heightEnd="1.15" zOffsetStart="0" zOffsetEnd="0" widthStart="0.13" widthEnd="0.13" />
+                <userData code="IPGRoad" value="Guide posts">
+                    <parameters s0="35.9699999999998" s1="2494.9999999" t="10.75" side="L" />
+                </userData>
+            </object>
+            <object type="IPGRoad Guide posts" name="object 435" id="76" s="235.97" t="-14.315" zOffset="0" validLength="0.120000000000005" orientation="none" hdg="0" pitch="0" roll="0" length="0.12" width="0.13" height="1.15">
+                <repeat s="235.97" length="2250.06" distance="50" tStart="-14.315" tEnd="-14.315" heightStart="1.15" heightEnd="1.15" zOffsetStart="0" zOffsetEnd="0" widthStart="0.13" widthEnd="0.13" />
+                <userData code="IPGRoad" value="Guide posts">
+                    <parameters s0="235.97" s1="2494.9999999" t="-14.25" side="R" />
+                </userData>
+            </object>
+        </objects>
+        <signals>
+            <signal s="214.96" t="-14.65" id="77" name="object 448" dynamic="no" orientation="+" zOffset="2.125" country="DEU" type="282" subtype="-1" height="0.75" width="0.75" hOffset="0" pitch="0" roll="0" />
+            <signal s="405.04" t="14.9" id="78" name="object 450" dynamic="no" orientation="-" zOffset="2.125" country="DEU" type="274" subtype="60" value="100" unit="km/h" height="0.75" width="0.75" hOffset="0" pitch="0" roll="0" />
+        </signals>
+    </road>
+    <road name="object 451" length="221.722411360766" id="29" junction="-1">
+        <link>
+            <predecessor elementType="junction" elementId="38" />
+            <successor elementType="junction" elementId="40" />
+        </link>
+        <type s="0" type="unknown">
+            <speed max="70" unit="km/h" />
+        </type>
+        <planView>
+            <geometry s="0" x="0" y="0" hdg="-0" length="62.8318530717959">
+                <arc curvature="-0.0111111111111111" />
+            </geometry>
+            <geometry s="62.8318530717959" x="57.8508848717885" y="-21.056000119292" hdg="-0.698131700797732" length="111.766668485124">
+                <paramPoly3 aU="0" bU="0.953187634074534" cU="0.000510558272892256" dU="-1.77311131041984e-005" aV="0" bV="-1.66533453693773e-016" cV="-0.00663603445319875" dV="1.65306877650674e-005" pRange="arcLength" />
+            </geometry>
+            <geometry s="174.598521556919" x="86.9337140592269" y="-123.544103752438" hdg="-1.83259571459405" length="47.1238898038469">
+                <arc curvature="-0.0111111111111111" />
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0" a="0" b="0" c="-7.3228699721214e-005" d="2.4409566573738e-006" />
+            <elevation s="30" a="0" b="0.00219686099163642" c="0.000146457399442428" d="-5.40155832623043e-007" />
+            <elevation s="216.732062183396" a="2" b="0.000389586175699608" c="-0.000156135838135842" d="1.56437788806314e-005" />
+        </elevationProfile>
+        <lanes>
+            <laneOffset s="0" a="-10.25" b="0" c="0.000625498012114016" d="-1.88072406475941e-006" />
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="driving" />
+                </center>
+                <right>
+                    <lane id="-1" type="driving">
+                        <width sOffset="0" a="3.5" b="0" c="-3.05120981519032e-005" d="9.17426373053368e-008" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                    <lane id="-2" type="border">
+                        <width sOffset="0" a="0.75" b="0" c="-3.05120981519032e-005" d="9.17426373053368e-008" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+        <objects>
+            <object type="IPGRoad Mount" name="object 485" id="79" s="8.19334117029334" t="-14.3550485563315" zOffset="0" validLength="0.0475980433443155" orientation="none" hdg="0.000838887393143016" pitch="0" roll="0" radius="0.04" height="2.775">
+                <userData code="IPGRoad" value="Mount">
+                    <parameters s="8.19334117029334" t="-14.3550485563315" side="R" type="1" rotZ="0" />
+                </userData>
+            </object>
+            <object type="IPGRoad Mount" name="object 487" id="80" s="35.4362005615187" t="-8.04823558488312" zOffset="0" validLength="0.0563045389370984" orientation="none" hdg="0.347606246657193" pitch="0" roll="0" radius="0.04" height="1.15">
+                <userData code="IPGRoad" value="Mount">
+                    <parameters s="35.4362005615187" t="-8.04823558488312" side="L" type="1" rotZ="0.349065850398866" />
+                </userData>
+            </object>
+            <object type="IPGRoad Mount" name="object 489" id="81" s="55.5098864287374" t="-7.14431218604462" zOffset="0" validLength="0.0556855976676616" orientation="none" hdg="0" pitch="0" roll="0" radius="0.04" height="1.15">
+                <userData code="IPGRoad" value="Mount">
+                    <parameters s="55.5098864287374" t="-7.14431218604462" side="L" type="1" rotZ="0.349065850398866" />
+                </userData>
+            </object>
+            <object type="IPGRoad Mount" name="object 491" id="82" s="75.4811555313274" t="-6.09508377746926" zOffset="0" validLength="0.0572124056585892" orientation="none" hdg="0.107059189422531" pitch="0" roll="0" radius="0.04" height="1.15">
+                <userData code="IPGRoad" value="Mount">
+                    <parameters s="75.4811555313274" t="-6.09508377746926" side="L" type="1" rotZ="0.349065850398866" />
+                </userData>
+            </object>
+            <object type="IPGRoad Mount" name="object 493" id="83" s="95.554841398546" t="-4.87965194974178" zOffset="0" validLength="0.0536743891795624" orientation="none" hdg="0" pitch="0" roll="0" radius="0.04" height="1.15">
+                <userData code="IPGRoad" value="Mount">
+                    <parameters s="95.554841398546" t="-4.87965194974178" side="L" type="1" rotZ="0.349065850398866" />
+                </userData>
+            </object>
+            <object type="IPGRoad Mount" name="object 495" id="84" s="115.628527265765" t="-3.54462118218599" zOffset="0" validLength="0.0515403705357755" orientation="none" hdg="0" pitch="0" roll="0" radius="0.04" height="1.15">
+                <userData code="IPGRoad" value="Mount">
+                    <parameters s="115.628527265765" t="-3.54462118218599" side="L" type="1" rotZ="0.349065850398866" />
+                </userData>
+            </object>
+            <object type="IPGRoad Mount" name="object 497" id="85" s="135.804629897612" t="-2.22452382461984" zOffset="0" validLength="0.0509970879395212" orientation="none" hdg="0" pitch="0" roll="0" radius="0.04" height="1.15">
+                <userData code="IPGRoad" value="Mount">
+                    <parameters s="135.804629897612" t="-2.22452382461984" side="L" type="1" rotZ="0.349065850398866" />
+                </userData>
+            </object>
+            <object type="IPGRoad Mount" name="object 499" id="86" s="156.083149294088" t="-0.963083093226993" zOffset="0" validLength="0.0519175364448756" orientation="none" hdg="0.429827051929599" pitch="0" roll="0" radius="0.04" height="1.15">
+                <userData code="IPGRoad" value="Mount">
+                    <parameters s="156.083149294088" t="-0.963083093226993" side="L" type="1" rotZ="0.349065850398866" />
+                </userData>
+            </object>
+        </objects>
+        <signals>
+            <signal s="8.14575575842346" t="-14.3550379880406" id="88" name="object 486" dynamic="no" orientation="+" zOffset="2.125" country="DEU" type="274" subtype="57" value="70" unit="km/h" height="0.75" width="0.75" hOffset="0" pitch="0" roll="0" />
+            <signal s="35.3949138253269" t="-8.06190776759514" id="89" name="object 488" dynamic="no" orientation="+" zOffset="0.75" country="DEU" type="625" subtype="20" height="0.5" width="0.5" hOffset="0.349065850398866" pitch="0" roll="0" />
+            <signal s="55.4690535767276" t="-7.15798447138755" id="90" name="object 490" dynamic="no" orientation="+" zOffset="0.75" country="DEU" type="625" subtype="20" height="0.5" width="0.5" hOffset="0.349065850398866" pitch="0" roll="0" />
+            <signal s="75.4391998050429" t="-6.10875491163738" id="91" name="object 492" dynamic="no" orientation="+" zOffset="0.75" country="DEU" type="625" subtype="20" height="0.5" width="0.5" hOffset="0.349065850398866" pitch="0" roll="0" />
+            <signal s="95.5154825222236" t="-4.8933252380308" id="92" name="object 494" dynamic="no" orientation="+" zOffset="0.75" country="DEU" type="625" subtype="20" height="0.5" width="0.5" hOffset="0.349065850398866" pitch="0" roll="0" />
+            <signal s="115.590735107076" t="-3.5582956025557" id="93" name="object 496" dynamic="no" orientation="+" zOffset="0.75" country="DEU" type="625" subtype="20" height="0.5" width="0.5" hOffset="0.349065850398866" pitch="0" roll="0" />
+            <signal s="135.767237254493" t="-2.23819844756795" id="94" name="object 498" dynamic="no" orientation="+" zOffset="0.75" country="DEU" type="625" subtype="20" height="0.5" width="0.5" hOffset="0.349065850398866" pitch="0" roll="0" />
+            <signal s="156.045081972992" t="-0.976757049329108" id="95" name="object 500" dynamic="no" orientation="+" zOffset="0.75" country="DEU" type="625" subtype="20" height="0.5" width="0.5" hOffset="0.349065850398866" pitch="0" roll="0" />
+        </signals>
+    </road>
+    <road name="object 501" length="231.589948396582" id="30" junction="-1">
+        <link>
+            <predecessor elementType="junction" elementId="39" />
+            <successor elementType="junction" elementId="40" />
+        </link>
+        <type s="0" type="unknown">
+            <speed max="70" unit="km/h" />
+        </type>
+        <planView>
+            <geometry s="0" x="209.03" y="0" hdg="3.14159265358979" length="78.5398163397448">
+                <arc curvature="0.0111111111111111" />
+            </geometry>
+            <geometry s="78.5398163397448" x="140.086000119292" y="-32.1491151282114" hdg="-2.26892802759263" length="121.634205520939">
+                <paramPoly3 aU="0" bU="0.997365831746071" cU="-0.000392976516068929" dU="1.81248614036136e-006" aV="0" bV="5.55111512312578e-016" cV="0.0035955617235582" dV="-1.58049232884457e-005" pRange="arcLength" />
+            </geometry>
+            <geometry s="200.174021860684" x="82.7102347117469" y="-139.037186257614" hdg="-2.0943951023932" length="31.4159265358979">
+                <arc curvature="-0.00833333333333333" />
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0" a="0" b="0" c="-9.51352576610905e-005" d="9.51352576610905e-006" />
+            <elevation s="9.99999999999999" a="0" b="0.000951352576610904" c="0.000190270515322181" d="-7.38371933066198e-007" />
+            <elevation s="170.241557816227" a="2" b="0.00505152129692333" c="-0.000164683091084739" d="1.34219569190683e-006" />
+        </elevationProfile>
+        <lanes>
+            <laneOffset s="0" a="10.25" b="0" c="-0.000573331374242129" d="1.65042100837163e-006" />
+            <laneSection s="0">
+                <left>
+                    <lane id="2" type="border">
+                        <link>
+                            <successor id="2" />
+                        </link>
+                        <width sOffset="0" a="0.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                    <lane id="1" type="driving">
+                        <link>
+                            <successor id="1" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0" type="driving" />
+                </center>
+                <right>
+                    <lane id="-1" type="border">
+                        <link>
+                            <successor id="-1" />
+                        </link>
+                        <width sOffset="0" a="0" b="0" c="0.00249780025562122" d="-5.548224687488e-005" />
+                        <width sOffset="30.0132071826398" a="0.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+            <laneSection s="94.2914925654599">
+                <left>
+                    <lane id="2" type="border">
+                        <link>
+                            <predecessor id="2" />
+                            <successor id="2" />
+                        </link>
+                        <width sOffset="0" a="0.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                    <lane id="1" type="driving">
+                        <link>
+                            <predecessor id="1" />
+                            <successor id="1" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0" type="driving" />
+                </center>
+                <right>
+                    <lane id="-1" type="border">
+                        <link>
+                            <predecessor id="-1" />
+                            <successor id="-1" />
+                        </link>
+                        <width sOffset="0" a="0.75" b="0" c="0.000292387268551762" d="-1.45808535645544e-005" />
+                        <width sOffset="20.0528225084535" a="0.75" b="-0.00584774754769679" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+            <laneSection s="191.297021450104">
+                <left>
+                    <lane id="2" type="border">
+                        <link>
+                            <predecessor id="2" />
+                        </link>
+                        <width sOffset="0" a="0.75" b="0" c="-0.000923918421200966" d="1.52866932440068e-005" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                    <lane id="1" type="driving">
+                        <link>
+                            <predecessor id="1" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="-0.000923918421200966" d="1.52866932440068e-005" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0" type="driving" />
+                </center>
+                <right>
+                    <lane id="-1" type="border">
+                        <link>
+                            <predecessor id="-1" />
+                        </link>
+                        <width sOffset="0" a="0.3" b="0" c="-0.00055435105272058" d="9.17201594640407e-006" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+        <objects>
+            <object type="IPGRoad Mount" name="object 591" id="96" s="5.05561433191612" t="14.3855593514527" zOffset="0" validLength="0.055146174410698" orientation="none" hdg="0" pitch="0" roll="0" radius="0.04" height="2.875">
+                <userData code="IPGRoad" value="Mount">
+                    <parameters s="5.05561433191612" t="14.3855593514527" side="L" type="1" rotZ="0.174532925199433" />
+                </userData>
+            </object>
+        </objects>
+        <signals>
+            <signal s="5.00873863065159" t="14.3786031733973" id="97" name="object 592" dynamic="no" orientation="+" zOffset="2.225" country="DEU" type="267" subtype="-1" height="0.75" width="0.75" hOffset="0.174532925199433" pitch="0" roll="0" />
+            <signal s="5.10249856086148" t="14.3924950257993" id="98" name="object 593" dynamic="no" orientation="-" zOffset="1.95450001955032" country="DEU" type="205" subtype="-1" height="1.09099996089935" width="1.25999999046326" hOffset="0.174532925199433" pitch="0" roll="0" />
+        </signals>
+    </road>
+    <road name="object 594" length="578.472183387761" id="31" junction="-1">
+        <link>
+            <predecessor elementType="junction" elementId="40" />
+            <successor elementType="junction" elementId="35" />
+        </link>
+        <type s="0" type="rural">
+            <speed max="100" unit="km/h" />
+        </type>
+        <planView>
+            <geometry s="0" x="60.1044660940672" y="-167.425533905933" hdg="-2.35619449019235" length="55">
+                <line />
+            </geometry>
+            <geometry s="55" x="21.2135931288071" y="-206.316406871193" hdg="-2.35619449019235" length="212.057504117311">
+                <arc curvature="-0.0111111111111111" />
+            </geometry>
+            <geometry s="267.057504117311" x="-132.426017177982" y="-142.676796564403" hdg="1.5707963267949" length="311.41467927045">
+                <paramPoly3 aU="0" bU="0.999999999986523" cU="-7.72265259905878e-013" dU="1.64254763437144e-015" aV="0" bV="-6.57386110237897e-016" cV="1.14756337867551e-007" dV="-2.37092428251139e-010" pRange="arcLength" />
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0" a="2.00406442107402" b="0.00161560737692426" c="0.000158512421886907" d="-4.06442107402327e-007" />
+            <elevation s="265" a="6" b="0" c="0" d="0" />
+        </elevationProfile>
+        <lanes>
+            <laneSection s="0">
+                <left>
+                    <lane id="2" type="border">
+                        <width sOffset="0" a="0.25" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="1" type="driving">
+                        <width sOffset="0" a="3" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0" type="driving" />
+                </center>
+                <right>
+                    <lane id="-1" type="driving">
+                        <width sOffset="0" a="3" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-2" type="border">
+                        <width sOffset="0" a="0.25" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+        <objects>
+            <object type="IPGRoad Mount" name="object 637" id="99" s="74.0300000006532" t="3.725" zOffset="0" validLength="0.0492316238066479" orientation="none" hdg="0.350561963167055" pitch="0" roll="0" radius="0.04" height="1.15">
+                <userData code="IPGRoad" value="Mount">
+                    <parameters s="74.0300000006532" t="3.725" side="L" type="1" rotZ="0.349065850398866" />
+                </userData>
+            </object>
+            <object type="IPGRoad Mount" name="object 639" id="100" s="74.1300000006542" t="3.725" zOffset="0" validLength="0.0492317055607288" orientation="none" hdg="2.79112787965849" pitch="0" roll="0" radius="0.04" height="1.15">
+                <userData code="IPGRoad" value="Mount">
+                    <parameters s="74.1300000006542" t="3.725" side="L" type="1" rotZ="2.79252680319093" />
+                </userData>
+            </object>
+            <object type="IPGRoad Mount" name="object 641" id="101" s="112.200000000969" t="3.725" zOffset="0" validLength="0.0492311581828631" orientation="none" hdg="0.350748740871788" pitch="0" roll="0" radius="0.04" height="1.15">
+                <userData code="IPGRoad" value="Mount">
+                    <parameters s="112.200000000969" t="3.725" side="L" type="1" rotZ="0.349065850398866" />
+                </userData>
+            </object>
+            <object type="IPGRoad Mount" name="object 643" id="102" s="112.30000000097" t="3.725" zOffset="0" validLength="0.0492310613804108" orientation="none" hdg="2.79428384000741" pitch="0" roll="0" radius="0.04" height="1.15">
+                <userData code="IPGRoad" value="Mount">
+                    <parameters s="112.30000000097" t="3.725" side="L" type="1" rotZ="2.79252680319093" />
+                </userData>
+            </object>
+            <object type="IPGRoad Mount" name="object 645" id="103" s="150.360000001284" t="3.725" zOffset="0" validLength="0.049232060519131" orientation="none" hdg="0.349541038451" pitch="0" roll="0" radius="0.04" height="1.15">
+                <userData code="IPGRoad" value="Mount">
+                    <parameters s="150.360000001284" t="3.725" side="L" type="1" rotZ="0.349065850398866" />
+                </userData>
+            </object>
+            <object type="IPGRoad Mount" name="object 647" id="104" s="150.460000001285" t="3.725" zOffset="0" validLength="0.0492321292336726" orientation="none" hdg="2.7925729729835" pitch="0" roll="0" radius="0.04" height="1.15">
+                <userData code="IPGRoad" value="Mount">
+                    <parameters s="150.460000001285" t="3.725" side="L" type="1" rotZ="2.79252680319093" />
+                </userData>
+            </object>
+            <object type="IPGRoad Mount" name="object 649" id="105" s="188.5300000016" t="3.725" zOffset="0" validLength="0.0492305478233561" orientation="none" hdg="0.351163818949496" pitch="0" roll="0" radius="0.04" height="1.15">
+                <userData code="IPGRoad" value="Mount">
+                    <parameters s="188.5300000016" t="3.725" side="L" type="1" rotZ="0.349065850398866" />
+                </userData>
+            </object>
+            <object type="IPGRoad Mount" name="object 651" id="106" s="188.630000001601" t="3.725" zOffset="0" validLength="0.0492304365816381" orientation="none" hdg="2.79468381125295" pitch="0" roll="0" radius="0.04" height="1.15">
+                <userData code="IPGRoad" value="Mount">
+                    <parameters s="188.630000001601" t="3.725" side="L" type="1" rotZ="2.79252680319093" />
+                </userData>
+            </object>
+            <object type="IPGRoad Mount" name="object 653" id="107" s="226.700000001915" t="3.725" zOffset="0" validLength="0.0492324446097712" orientation="none" hdg="0" pitch="0" roll="0" radius="0.04" height="1.15">
+                <userData code="IPGRoad" value="Mount">
+                    <parameters s="226.700000001915" t="3.725" side="L" type="1" rotZ="0.349065850398866" />
+                </userData>
+            </object>
+            <object type="IPGRoad Mount" name="object 655" id="108" s="226.800000001916" t="3.725" zOffset="0" validLength="0.0492324993092552" orientation="none" hdg="0" pitch="0" roll="0" radius="0.04" height="1.15">
+                <userData code="IPGRoad" value="Mount">
+                    <parameters s="226.800000001916" t="3.725" side="L" type="1" rotZ="2.79252680319093" />
+                </userData>
+            </object>
+            <object type="IPGRoad Mount" name="object 657" id="109" s="573.734300711326" t="-3.15" zOffset="0" validLength="0.0400000262168305" orientation="none" hdg="-5.93466689411478e-006" pitch="0" roll="0" radius="0.04" height="3.10924999415875">
+                <userData code="IPGRoad" value="Mount">
+                    <parameters s="573.734300711326" t="-3.15" side="R" type="1" rotZ="0" />
+                </userData>
+            </object>
+            <bridge s="382" length="54" name="object 631" id="111" type="concrete" />
+        </objects>
+        <signals>
+            <signal s="73.9939003929674" t="3.71132673008465" id="112" name="object 638" dynamic="no" orientation="+" zOffset="0.75" country="DEU" type="625" subtype="20" height="0.5" width="0.5" hOffset="0.349065850398866" pitch="0" roll="0" />
+            <signal s="74.1660996895612" t="3.71132672967119" id="113" name="object 640" dynamic="no" orientation="+" zOffset="0.75" country="DEU" type="625" subtype="10" height="0.5" width="0.5" hOffset="2.79252680319093" pitch="0" roll="0" />
+            <signal s="112.163900710032" t="3.71132673174264" id="114" name="object 642" dynamic="no" orientation="+" zOffset="0.75" country="DEU" type="625" subtype="20" height="0.5" width="0.5" hOffset="0.349065850398866" pitch="0" roll="0" />
+            <signal s="112.336099195834" t="3.71132673221218" id="115" name="object 644" dynamic="no" orientation="+" zOffset="0.75" country="DEU" type="625" subtype="10" height="0.5" width="0.5" hOffset="2.79252680319093" pitch="0" roll="0" />
+            <signal s="150.323900072932" t="3.7113267282542" id="116" name="object 646" dynamic="no" orientation="+" zOffset="0.75" country="DEU" type="625" subtype="20" height="0.5" width="0.5" hOffset="0.349065850398866" pitch="0" roll="0" />
+            <signal s="150.496099997936" t="3.71132672791441" id="117" name="object 648" dynamic="no" orientation="+" zOffset="0.75" country="DEU" type="625" subtype="10" height="0.5" width="0.5" hOffset="2.79252680319093" pitch="0" roll="0" />
+            <signal s="188.493901154758" t="3.71132673431682" id="118" name="object 650" dynamic="no" orientation="+" zOffset="0.75" country="DEU" type="625" subtype="20" height="0.5" width="0.5" hOffset="0.349065850398866" pitch="0" roll="0" />
+            <signal s="188.66609873828" t="3.71132673490593" id="119" name="object 652" dynamic="no" orientation="+" zOffset="0.75" country="DEU" type="625" subtype="10" height="0.5" width="0.5" hOffset="2.79252680319093" pitch="0" roll="0" />
+            <signal s="226.663899791143" t="3.71132672673162" id="120" name="object 654" dynamic="no" orientation="+" zOffset="0.75" country="DEU" type="625" subtype="20" height="0.5" width="0.5" hOffset="0.349065850398866" pitch="0" roll="0" />
+            <signal s="226.836100267065" t="3.71132672645818" id="121" name="object 656" dynamic="no" orientation="+" zOffset="0.75" country="DEU" type="625" subtype="10" height="0.5" width="0.5" hOffset="2.79252680319093" pitch="0" roll="0" />
+            <signal s="573.69430068503" t="-3.1499999998346" id="122" name="object 658" dynamic="no" orientation="+" zOffset="2.43025000989437" country="DEU" type="301" subtype="-1" height="0.778999984264374" width="0.899999976158142" hOffset="0" pitch="0" roll="0" />
+            <signal s="573.69430068503" t="-3.1499999998346" id="123" name="object 659" dynamic="no" orientation="+" zOffset="1.78024998605251" country="DEU" type="214" subtype="20" height="0.600000023841858" width="0.600000023841858" hOffset="0" pitch="0" roll="0" />
+        </signals>
+    </road>
+    <road name="object 660" length="442.063338823081" id="32" junction="-1">
+        <link>
+            <predecessor elementType="junction" elementId="36" />
+            <successor elementType="junction" elementId="35" />
+        </link>
+        <type s="0" type="unknown">
+            <speed max="70" unit="km/h" />
+        </type>
+        <planView>
+            <geometry s="0" x="-300" y="0" hdg="3.14159265358979" length="282.743338823081">
+                <arc curvature="-0.0111111111111111" />
+            </geometry>
+            <geometry s="282.743338823081" x="-300" y="180" hdg="0" length="159.32">
+                <paramPoly3 aU="0" bU="1" cU="3.0510512137275e-034" dU="-1.91504595388369e-036" aV="0" bV="-2.44921270764475e-016" cV="1.24572733278911e-018" dV="-7.81902669337881e-021" pRange="arcLength" />
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0" a="0" b="0" c="-5.76923076923077e-005" d="5.76923076923077e-006" />
+            <elevation s="10" a="0" b="0.000576923076923079" c="0.000115384615384615" d="-1.98503009153897e-007" />
+            <elevation s="400" a="6" b="0" c="0" d="0" />
+        </elevationProfile>
+        <lanes>
+            <laneOffset s="0" a="-10.25" b="0" c="0.000151640601051963" d="-2.24496423532237e-007" />
+            <laneSection s="0">
+                <left>
+                    <lane id="1" type="border">
+                        <link>
+                            <successor id="1" />
+                        </link>
+                        <width sOffset="0" a="0" b="0" c="1.15878576073456e-005" d="-3.03656676305962e-008" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0" type="driving">
+                        <roadMark sOffset="1e-007" type="solid" color="white" width="0.15" height="0" />
+                        <roadMark sOffset="8.53300000000002" type="solid" color="white" width="0.12" height="0" />
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving">
+                        <link>
+                            <successor id="-1" />
+                        </link>
+                        <width sOffset="0" a="3.5" b="0" c="-2.31757152146913e-005" d="6.07313352611924e-008" />
+                        <roadMark sOffset="1e-007" type="solid" color="white" width="0.12" height="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                    <lane id="-2" type="border">
+                        <link>
+                            <successor id="-2" />
+                        </link>
+                        <width sOffset="0" a="0.75" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+            <laneSection s="254.407">
+                <left>
+                    <lane id="1" type="border">
+                        <link>
+                            <predecessor id="1" />
+                            <successor id="1" />
+                        </link>
+                        <width sOffset="0" a="0.25" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0" type="driving">
+                        <roadMark sOffset="9.99999940631824e-008" type="solid" color="white" width="0.12" height="0" />
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving">
+                        <link>
+                            <predecessor id="-1" />
+                            <successor id="-1" />
+                        </link>
+                        <width sOffset="0" a="3" b="0" c="0" d="0" />
+                        <roadMark sOffset="9.99999940631824e-008" type="solid" color="white" width="0.12" height="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                    <lane id="-2" type="border">
+                        <link>
+                            <predecessor id="-2" />
+                            <successor id="-3" />
+                        </link>
+                        <width sOffset="0" a="0.75" b="0" c="0.00721206511951174" d="-0.000157161553721695" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+            <laneSection s="285">
+                <left>
+                    <lane id="1" type="border">
+                        <link>
+                            <predecessor id="1" />
+                            <successor id="1" />
+                        </link>
+                        <width sOffset="0" a="0.25" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0" type="driving">
+                        <roadMark sOffset="8.25" type="solid" color="white" width="0.12" height="0" />
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving">
+                        <link>
+                            <predecessor id="-1" />
+                            <successor id="-1" />
+                        </link>
+                        <width sOffset="0" a="3" b="0" c="0" d="0" />
+                        <roadMark sOffset="0.5" type="broken" color="white" width="0.12" height="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                    <lane id="-2" type="driving">
+                        <link>
+                            <successor id="-2" />
+                        </link>
+                        <width sOffset="0" a="0" b="0" c="0.0260818326890077" d="-0.000936040507070329" />
+                        <roadMark sOffset="1.00000022484892e-007" type="solid" color="white" width="0.12" height="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                    <lane id="-3" type="border">
+                        <link>
+                            <predecessor id="-2" />
+                            <successor id="-3" />
+                        </link>
+                        <width sOffset="0" a="3" b="0" c="-0.0239083466315904" d="0.000858037131481135" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+            <laneSection s="303.576">
+                <left>
+                    <lane id="1" type="border">
+                        <link>
+                            <predecessor id="1" />
+                        </link>
+                        <width sOffset="0" a="0.25" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0" type="driving">
+                        <roadMark sOffset="0.000338823081392547" type="solid" color="white" width="0.12" height="0" />
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving">
+                        <link>
+                            <predecessor id="-1" />
+                        </link>
+                        <width sOffset="0" a="3" b="0" c="0" d="0" />
+                        <roadMark sOffset="1.00000022484892e-007" type="broken" color="white" width="0.12" height="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                    <lane id="-2" type="driving">
+                        <link>
+                            <predecessor id="-2" />
+                        </link>
+                        <width sOffset="0" a="3" b="0" c="0" d="0" />
+                        <roadMark sOffset="1.00000022484892e-007" type="solid" color="white" width="0.12" height="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                    <lane id="-3" type="border">
+                        <link>
+                            <predecessor id="-3" />
+                        </link>
+                        <width sOffset="0" a="0.25" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+        <objects>
+            <object type="IPGRoad Mount" name="object 798" id="124" s="8" t="-14.3889577923714" zOffset="0" validLength="0.0476144711199957" orientation="none" hdg="0" pitch="0" roll="0" radius="0.04" height="2.775">
+                <userData code="IPGRoad" value="Mount">
+                    <parameters s="8" t="-14.3889577923714" side="R" type="1" rotZ="0" />
+                </userData>
+            </object>
+            <object type="IPGRoad Mount" name="object 800" id="125" s="34.6" t="-9.02145360916055" zOffset="0" validLength="0.0569754964713809" orientation="none" hdg="0" pitch="0" roll="0" radius="0.04" height="1.15">
+                <userData code="IPGRoad" value="Mount">
+                    <parameters s="34.6" t="-9.02145360916055" side="L" type="1" rotZ="0.349065850398866" />
+                </userData>
+            </object>
+            <object type="IPGRoad Mount" name="object 802" id="126" s="54.15" t="-8.82642316542066" zOffset="0" validLength="0.05683771274132" orientation="none" hdg="0" pitch="0" roll="0" radius="0.04" height="1.15">
+                <userData code="IPGRoad" value="Mount">
+                    <parameters s="54.15" t="-8.82642316542066" side="L" type="1" rotZ="0.349065850398866" />
+                </userData>
+            </object>
+            <object type="IPGRoad Mount" name="object 804" id="127" s="73.7" t="-8.54081177297615" zOffset="0" validLength="0.0566540457577531" orientation="none" hdg="0.351886931464621" pitch="0" roll="0" radius="0.04" height="1.15">
+                <userData code="IPGRoad" value="Mount">
+                    <parameters s="73.7" t="-8.54081177297615" side="L" type="1" rotZ="0.349065850398866" />
+                </userData>
+            </object>
+            <object type="IPGRoad Mount" name="object 806" id="128" s="93.3" t="-8.17420913593187" zOffset="0" validLength="0.0563878152247526" orientation="none" hdg="0.3500992699695" pitch="0" roll="0" radius="0.04" height="1.15">
+                <userData code="IPGRoad" value="Mount">
+                    <parameters s="93.3" t="-8.17420913593187" side="L" type="1" rotZ="0.349065850398866" />
+                </userData>
+            </object>
+            <object type="IPGRoad Mount" name="object 808" id="129" s="112.8" t="-7.7408276825017" zOffset="0" validLength="0.0560873664148716" orientation="none" hdg="0" pitch="0" roll="0" radius="0.04" height="1.15">
+                <userData code="IPGRoad" value="Mount">
+                    <parameters s="112.8" t="-7.7408276825017" side="L" type="1" rotZ="0.349065850398866" />
+                </userData>
+            </object>
+            <object type="IPGRoad Mount" name="object 810" id="130" s="132.4" t="-7.1964917051542" zOffset="0" validLength="0.055729432316582" orientation="none" hdg="0.35166134113825" pitch="0" roll="0" radius="0.04" height="1.15">
+                <userData code="IPGRoad" value="Mount">
+                    <parameters s="132.4" t="-7.1964917051542" side="L" type="1" rotZ="0.349065850398866" />
+                </userData>
+            </object>
+            <object type="IPGRoad Mount" name="object 812" id="131" s="152.05" t="-6.65277766286096" zOffset="0" validLength="0.0553606406207336" orientation="none" hdg="0.350770130097292" pitch="0" roll="0" radius="0.04" height="1.15">
+                <userData code="IPGRoad" value="Mount">
+                    <parameters s="152.05" t="-6.65277766286096" side="L" type="1" rotZ="0.349065850398866" />
+                </userData>
+            </object>
+        </objects>
+        <signals>
+            <signal s="7.95239812634393" t="-14.3889472260534" id="133" name="object 799" dynamic="no" orientation="+" zOffset="2.125" country="DEU" type="274" subtype="57" value="70" unit="km/h" height="0.75" width="0.75" hOffset="0" pitch="0" roll="0" />
+            <signal s="34.5582211153458" t="-9.03512569686308" id="134" name="object 801" dynamic="no" orientation="+" zOffset="0.75" country="DEU" type="625" subtype="20" height="0.5" width="0.5" hOffset="0.349065850398866" pitch="0" roll="0" />
+            <signal s="54.1083222246075" t="-8.84009527566227" id="135" name="object 803" dynamic="no" orientation="+" zOffset="0.75" country="DEU" type="625" subtype="20" height="0.5" width="0.5" hOffset="0.349065850398866" pitch="0" roll="0" />
+            <signal s="73.6584569530738" t="-8.5544838841411" id="136" name="object 805" dynamic="no" orientation="+" zOffset="0.75" country="DEU" type="625" subtype="20" height="0.5" width="0.5" hOffset="0.349065850398866" pitch="0" roll="0" />
+            <signal s="93.2586521136079" t="-8.18788131094149" id="137" name="object 807" dynamic="no" orientation="+" zOffset="0.75" country="DEU" type="625" subtype="20" height="0.5" width="0.5" hOffset="0.349065850398866" pitch="0" roll="0" />
+            <signal s="112.758872516246" t="-7.75449990905926" id="138" name="object 809" dynamic="no" orientation="+" zOffset="0.75" country="DEU" type="625" subtype="20" height="0.5" width="0.5" hOffset="0.349065850398866" pitch="0" roll="0" />
+            <signal s="132.359135049539" t="-7.21016396861667" id="139" name="object 811" dynamic="no" orientation="+" zOffset="0.75" country="DEU" type="625" subtype="20" height="0.5" width="0.5" hOffset="0.349065850398866" pitch="0" roll="0" />
+            <signal s="152.009405439652" t="-6.66644999194011" id="140" name="object 813" dynamic="no" orientation="+" zOffset="0.75" country="DEU" type="625" subtype="20" height="0.5" width="0.5" hOffset="0.349065850398866" pitch="0" roll="0" />
+        </signals>
+    </road>
+    <road name="object 820" length="404.923324606614" id="33" junction="-1">
+        <link>
+            <predecessor elementType="junction" elementId="35" />
+            <successor elementType="junction" elementId="37" />
+        </link>
+        <type s="0" type="unknown">
+            <speed max="70" unit="km/h" />
+        </type>
+        <planView>
+            <geometry s="0" x="-124.179985783532" y="180" hdg="-7.89247343235506e-017" length="122.179985783532">
+                <paramPoly3 aU="0" bU="1" cU="5.61907962639829e-034" dU="-3.30410834777151e-036" aV="0" bV="-3.23846005088026e-016" cV="2.29423912788767e-018" dV="-1.34904916076025e-020" pRange="arcLength" />
+            </geometry>
+            <geometry s="122.179985783532" x="-1.99999999999999" y="180" hdg="-1.38777878078145e-016" length="282.743338823081">
+                <arc curvature="-0.0111111111111111" />
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0" a="5.99215738614827" b="-0.00188772578778237" c="-0.00011195094738285" d="1.98503009153897e-007" />
+            <elevation s="381.749985783532" a="0" b="-0.000576923076923078" c="0.000115384615384616" d="-5.76923076923078e-006" />
+            <elevation s="391.749985783532" a="0" b="0" c="0" d="0" />
+        </elevationProfile>
+        <lanes>
+            <laneOffset s="0" a="-0.0120967845324511" b="-0.00291276694627465" c="-0.000172934336369588" d="2.9064107556501e-007" />
+            <laneSection s="5.6843418860808e-014">
+                <left>
+                    <lane id="1" type="border">
+                        <link>
+                            <successor id="1" />
+                        </link>
+                        <width sOffset="0" a="0.25" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0" type="driving" />
+                </center>
+                <right>
+                    <lane id="-1" type="driving">
+                        <link>
+                            <successor id="-1" />
+                        </link>
+                        <width sOffset="0" a="3" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                    <lane id="-2" type="driving">
+                        <width sOffset="0" a="3" b="0" c="0" d="0" />
+                        <width sOffset="56.7499857835323" a="3" b="0" c="-0.0393884365773696" d="0.00173716311975697" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                    <lane id="-3" type="border">
+                        <link>
+                            <successor id="-2" />
+                        </link>
+                        <width sOffset="0" a="0.25" b="0" c="0" d="0" />
+                        <width sOffset="56.7499857835323" a="0.25" b="0" c="0.0393884365773696" d="-0.00173716311975697" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+            <laneSection s="71.8659857835323">
+                <left>
+                    <lane id="1" type="border">
+                        <link>
+                            <predecessor id="1" />
+                            <successor id="1" />
+                        </link>
+                        <width sOffset="0" a="0.25" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0" type="driving" />
+                </center>
+                <right>
+                    <lane id="-1" type="driving">
+                        <link>
+                            <predecessor id="-1" />
+                            <successor id="-1" />
+                        </link>
+                        <width sOffset="0" a="3" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                    <lane id="-2" type="border">
+                        <link>
+                            <predecessor id="-3" />
+                            <successor id="-2" />
+                        </link>
+                        <width sOffset="0" a="3.25" b="0" c="-0.00361676231025814" d="4.83356361459671e-005" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+            <laneSection s="121.749985783532">
+                <left>
+                    <lane id="1" type="border">
+                        <link>
+                            <predecessor id="1" />
+                        </link>
+                        <width sOffset="0" a="0.25" b="0" c="4.74972125060249e-005" d="-1.80478815667399e-007" />
+                        <width sOffset="263.173338823082" a="0.25" b="-0.0125" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0" type="driving" />
+                </center>
+                <right>
+                    <lane id="-1" type="driving">
+                        <link>
+                            <predecessor id="-1" />
+                        </link>
+                        <width sOffset="0" a="3" b="0" c="1.87062414666886e-005" d="-4.40395543460766e-008" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                    <lane id="-2" type="border">
+                        <link>
+                            <predecessor id="-2" />
+                        </link>
+                        <width sOffset="0" a="0.25" b="0" c="1.87062414666886e-005" d="-4.40395543460766e-008" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="70" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+        <objects>
+            <object type="IPGRoad Mount" name="object 917" id="141" s="0.749985783532338" t="0.135621532397862" zOffset="0" validLength="0.051268510564455" orientation="none" hdg="0.349065850398866" pitch="0" roll="0" radius="0.04" height="2.70000001192093">
+                <userData code="IPGRoad" value="Mount">
+                    <parameters s="0.749985783532338" t="0.135621532397862" side="L" type="1" rotZ="0.349065850398866" />
+                </userData>
+            </object>
+            <object type="IPGRoad Mount" name="object 919" id="142" s="0.749985783532338" t="-6.16437846760214" zOffset="0" validLength="0.051268510564455" orientation="none" hdg="-0.349065850398866" pitch="0" roll="0" radius="0.04" height="2.70000001192093">
+                <userData code="IPGRoad" value="Mount">
+                    <parameters s="0.749985783532338" t="-6.16437846760214" side="R" type="1" rotZ="-0.349065850398866" />
+                </userData>
+            </object>
+            <object type="IPGRoad Mount" name="object 921" id="143" s="399.923324606614" t="-15.4946088350651" zOffset="0" validLength="0.0483238042365883" orientation="none" hdg="0" pitch="0" roll="0" radius="0.04" height="2.875">
+                <userData code="IPGRoad" value="Mount">
+                    <parameters s="399.923324606614" t="-15.4946088350651" side="R" type="1" rotZ="0" />
+                </userData>
+            </object>
+        </objects>
+        <signals>
+            <signal s="0.7123980787009" t="-6.15069766186912" id="144" name="object 920" dynamic="no" orientation="+" zOffset="2.19999998807907" country="DEU" type="274" subtype="57" value="70" unit="km/h" height="0.600000023841858" width="0.600000023841858" hOffset="-0.349065850398866" pitch="0" roll="0" />
+            <signal s="0.7123980787009" t="0.121940726664832" id="145" name="object 918" dynamic="no" orientation="+" zOffset="2.19999998807907" country="DEU" type="274" subtype="57" value="70" unit="km/h" height="0.600000023841858" width="0.600000023841858" hOffset="0.349065850398866" pitch="0" roll="0" />
+            <signal s="399.875013840203" t="-15.4945981076743" id="146" name="object 923" dynamic="no" orientation="+" zOffset="1.95450001955032" country="DEU" type="205" subtype="-1" height="1.09099996089935" width="1.25999999046326" hOffset="0" pitch="0" roll="0" />
+            <signal s="399.971635520815" t="-15.4945981075477" id="147" name="object 922" dynamic="no" orientation="-" zOffset="2.225" country="DEU" type="267" subtype="-1" height="0.75" width="0.75" hOffset="0" pitch="0" roll="0" />
+        </signals>
+    </road>
+    <road name="object 924" length="273.83584839138" id="34" junction="-1">
+        <link>
+            <predecessor elementType="junction" elementId="35" />
+        </link>
+        <type s="0" type="rural">
+            <speed max="100" unit="km/h" />
+        </type>
+        <planView>
+            <geometry s="0" x="-132.43" y="185.243688724276" hdg="1.5707963267949" length="14.7563112757245">
+                <line />
+            </geometry>
+            <geometry s="14.7563112757245" x="-132.43" y="200" hdg="1.5707963267949" length="130.899693899575">
+                <arc curvature="-0.00333333333333333" />
+            </geometry>
+            <geometry s="145.656005175299" x="-104.322336110995" y="326.78547852221" hdg="1.13446401379631" length="117.809724509617">
+                <arc curvature="0.00666666666666667" />
+            </geometry>
+            <geometry s="263.465729684916" x="-99.3146110486062" y="441.481239282165" hdg="1.91986217719376" length="10.3701187064639">
+                <paramPoly3 aU="0" bU="0.988413055624132" cU="-0.0172444406041226" dU="0.00110859808469851" aV="0" bV="-2.22044604925031e-016" cV="-0.097797774266361" dV="0.00628715234830768" pRange="arcLength" />
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0" a="5.99293125721594" b="-0.0026702033709935" c="-0.000247204508413618" d="9.41659604697932e-007" />
+            <elevation s="184.756311275725" a="3" b="0.00241496436117456" c="0.000274728156710423" d="-2.93481123068517e-006" />
+            <elevation s="244.756311275725" a="3.5" b="0.00368638187502549" c="-0.000253537864812908" d="4.35938618631608e-006" />
+        </elevationProfile>
+        <lanes>
+            <laneSection s="5.6843418860808e-014">
+                <left>
+                    <lane id="2" type="border">
+                        <width sOffset="0" a="0.25" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="1" type="driving">
+                        <width sOffset="0" a="3" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0" type="driving" />
+                </center>
+                <right>
+                    <lane id="-1" type="driving">
+                        <width sOffset="0" a="3" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                    <lane id="-2" type="border">
+                        <width sOffset="0" a="0.25" b="0" c="0" d="0" />
+                        <material sOffset="0" friction="1" />
+                        <speed sOffset="0" max="100" unit="km/h" />
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+        <objects>
+            <object type="IPGRoad Mount" name="object 966" id="148" s="4.76061864079679" t="3.15" zOffset="0" validLength="0.0400000000000205" orientation="none" hdg="0" pitch="0" roll="0" radius="0.04" height="3.08949999213219">
+                <userData code="IPGRoad" value="Mount">
+                    <parameters s="4.76061864079679" t="3.15" side="L" type="1" rotZ="0" />
+                </userData>
+            </object>
+            <object type="IPGRoad Mount" name="object 969" id="149" s="14.764926005869" t="3.15" zOffset="0" validLength="0.039703089260394" orientation="none" hdg="-5.93785191383018e-005" pitch="0" roll="0" radius="0.04" height="2.70000001192093">
+                <userData code="IPGRoad" value="Mount">
+                    <parameters s="14.764926005869" t="3.15" side="L" type="1" rotZ="0" />
+                </userData>
+            </object>
+            <object type="IPGRoad Mount" name="object 971" id="150" s="14.764926005869" t="-3.35" zOffset="0" validLength="0.0403245663937035" orientation="none" hdg="-5.93785191383018e-005" pitch="0" roll="0" radius="0.04" height="2.70000001192093">
+                <userData code="IPGRoad" value="Mount">
+                    <parameters s="14.764926005869" t="-3.35" side="R" type="1" rotZ="0" />
+                </userData>
+            </object>
+        </objects>
+        <signals>
+            <signal s="4.80061864079678" t="3.15000000000001" id="151" name="object 967" dynamic="no" orientation="-" zOffset="2.41050000786781" country="DEU" type="301" subtype="-1" height="0.778999984264374" width="0.899999976158142" hOffset="0" pitch="0" roll="0" />
+            <signal s="4.80061864079678" t="3.15000000000001" id="152" name="object 968" dynamic="no" orientation="-" zOffset="1.79999998807907" country="DEU" type="214" subtype="10" height="0.600000023841858" width="0.600000023841858" hOffset="0" pitch="0" roll="0" />
+            <signal s="14.72482963855" t="-3.34999897186657" id="153" name="object 972" dynamic="no" orientation="+" zOffset="2.19999998807907" country="DEU" type="282" subtype="-1" height="0.600000023841858" width="0.600000023841858" hOffset="0" pitch="0" roll="0" />
+            <signal s="14.8045096455878" t="3.15000264354784" id="154" name="object 970" dynamic="no" orientation="-" zOffset="2.19999998807907" country="DEU" type="274" subtype="57" value="70" unit="km/h" height="0.600000023841858" width="0.600000023841858" hOffset="0" pitch="0" roll="0" />
+        </signals>
+    </road>
+    <junction name="object 20" id="35">
+        <connection id="0" incomingRoad="34" connectingRoad="0" contactPoint="start">
+            <laneLink from="1" to="-1" />
+        </connection>
+        <connection id="1" incomingRoad="34" connectingRoad="1" contactPoint="start">
+            <laneLink from="1" to="-1" />
+        </connection>
+        <connection id="2" incomingRoad="34" connectingRoad="2" contactPoint="start">
+            <laneLink from="1" to="-1" />
+        </connection>
+        <connection id="3" incomingRoad="32" connectingRoad="3" contactPoint="start">
+            <laneLink from="-1" to="-1" />
+        </connection>
+        <connection id="4" incomingRoad="32" connectingRoad="4" contactPoint="start">
+            <laneLink from="-2" to="-1" />
+        </connection>
+        <connection id="5" incomingRoad="32" connectingRoad="5" contactPoint="start">
+            <laneLink from="-1" to="-1" />
+        </connection>
+        <connection id="6" incomingRoad="32" connectingRoad="6" contactPoint="start">
+            <laneLink from="-1" to="-1" />
+        </connection>
+        <connection id="7" incomingRoad="32" connectingRoad="7" contactPoint="start">
+            <laneLink from="-2" to="-1" />
+        </connection>
+        <connection id="8" incomingRoad="32" connectingRoad="8" contactPoint="start">
+            <laneLink from="-2" to="-1" />
+        </connection>
+        <connection id="9" incomingRoad="32" connectingRoad="9" contactPoint="start">
+            <laneLink from="-1" to="-1" />
+        </connection>
+        <connection id="10" incomingRoad="32" connectingRoad="10" contactPoint="start">
+            <laneLink from="-2" to="-1" />
+        </connection>
+        <connection id="11" incomingRoad="31" connectingRoad="11" contactPoint="start">
+            <laneLink from="-1" to="-1" />
+        </connection>
+        <connection id="12" incomingRoad="31" connectingRoad="12" contactPoint="start">
+            <laneLink from="-1" to="-1" />
+        </connection>
+        <connection id="13" incomingRoad="31" connectingRoad="13" contactPoint="start">
+            <laneLink from="-1" to="-1" />
+        </connection>
+    </junction>
+    <junction name="object 0" id="36">
+        <connection id="0" incomingRoad="25" connectingRoad="14" contactPoint="start">
+            <laneLink from="-5" to="5" />
+            <laneLink from="-4" to="4" />
+            <laneLink from="-3" to="3" />
+            <laneLink from="-2" to="2" />
+            <laneLink from="-1" to="1" />
+            <laneLink from="1" to="-1" />
+            <laneLink from="2" to="-2" />
+            <laneLink from="3" to="-3" />
+        </connection>
+        <connection id="1" incomingRoad="25" connectingRoad="15" contactPoint="start">
+            <laneLink from="4" to="-1" />
+            <laneLink from="5" to="-2" />
+        </connection>
+    </junction>
+    <junction name="object 4" id="37">
+        <connection id="0" incomingRoad="25" connectingRoad="16" contactPoint="start">
+            <laneLink from="3" to="3" />
+            <laneLink from="2" to="2" />
+            <laneLink from="1" to="1" />
+            <laneLink from="-1" to="-1" />
+            <laneLink from="-2" to="-2" />
+            <laneLink from="-3" to="-3" />
+            <laneLink from="-4" to="-4" />
+            <laneLink from="-5" to="-5" />
+        </connection>
+        <connection id="1" incomingRoad="25" connectingRoad="17" contactPoint="start">
+            <laneLink from="5" to="2" />
+            <laneLink from="4" to="1" />
+        </connection>
+    </junction>
+    <junction name="object 8" id="38">
+        <connection id="0" incomingRoad="26" connectingRoad="18" contactPoint="start">
+            <laneLink from="3" to="3" />
+            <laneLink from="2" to="2" />
+            <laneLink from="1" to="1" />
+            <laneLink from="-1" to="-1" />
+            <laneLink from="-2" to="-2" />
+            <laneLink from="-3" to="-3" />
+        </connection>
+        <connection id="1" incomingRoad="26" connectingRoad="19" contactPoint="start">
+            <laneLink from="-4" to="-1" />
+            <laneLink from="-5" to="-2" />
+        </connection>
+    </junction>
+    <junction name="object 12" id="39">
+        <connection id="0" incomingRoad="28" connectingRoad="20" contactPoint="start">
+            <laneLink from="-3" to="3" />
+            <laneLink from="-2" to="2" />
+            <laneLink from="-1" to="1" />
+            <laneLink from="1" to="-1" />
+            <laneLink from="2" to="-2" />
+            <laneLink from="3" to="-3" />
+            <laneLink from="4" to="-4" />
+            <laneLink from="5" to="-5" />
+        </connection>
+        <connection id="1" incomingRoad="28" connectingRoad="21" contactPoint="start">
+            <laneLink from="-5" to="2" />
+            <laneLink from="-4" to="1" />
+        </connection>
+    </junction>
+    <junction name="object 16" id="40">
+        <connection id="0" incomingRoad="31" connectingRoad="22" contactPoint="start">
+            <laneLink from="-2" to="2" />
+            <laneLink from="-1" to="1" />
+        </connection>
+        <connection id="1" incomingRoad="31" connectingRoad="23" contactPoint="start">
+            <laneLink from="1" to="-1" />
+            <laneLink from="2" to="-2" />
+        </connection>
+    </junction>
+</OpenDRIVE>
