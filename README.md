@@ -19,7 +19,7 @@ Compliance with Open Standards: Ensure compatibility and adherence to industry o
 
 ### Installation:
 1) Just clone the repo or extract the release package zip
-2) Unzip libtensorflow.so in the root folder of repo or extracted release
+2) Unzip libtensorflow.zip in the root folder of repo or extracted release
 
 ### Usage:
 1) Add your_python_env/lib folder path to
