@@ -77,38 +77,34 @@ if __name__ == '__main__':
         traffic_config.TrafficConfigManager(map_path=map_file_path)
     run_traffic(config_manager)
 
-    # Let's start to tinker with the configurations
-    # All of the available parameters are exposed through properties and can be
-    # changed as well.
-    # We can change the traffic_amount
-    # We can change the spawning strategy
 
-    config_manager.traffic_amount = 50
-    config_manager.spawner_strategy = \
-        traffic_config.SpawnerStrategy.SPAWN_AROUND_EGO_VISION
-    run_traffic(config_manager)
-
-    # Rates based spawner requires points in opendrive to spawn as well
-
+    # Rates based spawner is useful for replicating real world
+    # traffic flows such as for a map you know the flow rate
+    # at the edges of the map.
+    # When we want to observe how the the traffic behaves at junctions
+    # intersections and around traffic lights and more importantly 
+    # how it changes with adjustments to these things
+    # Change the traffic amount to a more substantial amount
+    
+    config_manager.traffic_amount = 500
     config_manager.spawner_strategy = \
         traffic_config.SpawnerStrategy.SPAWN_RATES
-    odr_lane = common_types.OpenDriveRoadInfo(road_id=2653000,
+    odr_lane = common_types.OpenDriveRoadInfo(road_id=268,
             lane_id=-2, lane_section=0)
-    config_manager.spawn_points = [[odr_lane, 3000]]
+    config_manager.spawn_points = [[odr_lane, 1800]]
     run_traffic(config_manager)
 
     # We can make a copy and change sensor range
-    # Press S to visualize the sensor range
+    # and change the traffic amount as well
+    # Press S to visualize the sensor range in visualizer
     # Also reset spawner strategy to what we were using previously
 
     config_manager.spawner_strategy = \
         traffic_config.SpawnerStrategy.SPAWN_AROUND_EGO_VISION
-
-    # Deep copy current object to new one and change sensor range
-
-    config_manager_with_less_sensor_range = config_manager.copy()
-    config_manager_with_less_sensor_range.ego_sensor_range = 50
-    run_traffic(config_manager_with_less_sensor_range)
+    config_manager_copy = config_manager.copy()
+    config_manager_copy.ego_sensor_range = 50
+    config_manager_copy.traffic_amount = 50
+    run_traffic(config_manager_copy)
 
     # Now let's try to play around with road user profiles
     # By default we have the following configuration
@@ -136,6 +132,11 @@ if __name__ == '__main__':
 
     roaduser_bus = \
         traffic_config.InputRoadUserProfile(traffic_config.RoadUserType.BUS)
+    roaduser_bus_long = \
+        traffic_config.InputRoadUserProfile(traffic_config.RoadUserType.BUS)
+    
+    # Let's change the length of the bus to 15 meters instead of the default
+    roaduser_bus_long.length = 15
 
     # Get the roaduser_profiles which are already present in
     # TrafficConfigManager object and take the ego profile from
@@ -145,17 +146,11 @@ if __name__ == '__main__':
 
     ego_profile = config_manager.roaduser_profiles[0][0]
 
-    # Now construct the road user profiles
+    # Now construct the road user profiles with 50 percent default bus profiles
+    # and 50 percent buses with adjusted length 15 meters.
 
     config_manager.roaduser_profiles = [[ego_profile, 0.0],
-            [roaduser_bus, 1.0]]
-    run_traffic(config_manager)
-
-    # Let's change the length of the bus profile slightly
-
-    ru_profiles = config_manager.roaduser_profiles
-    ru_profiles[1][0].length = 15.0
-    config_manager.roaduser_profiles = ru_profiles
+            [roaduser_bus, 0.5], [roaduser_bus_long, 0.5]]
     run_traffic(config_manager)
 
     # Each vehicle profile has associated driver profiles as well
@@ -172,7 +167,7 @@ if __name__ == '__main__':
     # Change the driver profile to generate more aggressive drivers
     # Change the driver profile target speed to 40 Km/h so they will
     # drive more slowly
-
+    
     driver_profile = roaduser_car.driver_profiles[0][0]
     driver_profile.p1 = 0.0
     driver_profile.p2 = 0.0
@@ -183,14 +178,15 @@ if __name__ == '__main__':
 
     config_manager.roaduser_profiles = [[ego_profile, 0.0],
             [roaduser_car, 1.0]]
-    run_traffic(config_manager)
-
-    # We will now run the ego with external decision
+   
+    # We will also run the ego with external decision
     # We will enforce it keep in the current lane
     # Other decisions are also available like left and right
     # If the decision is not possible it will be ignored
     # and the result will be returnd in the set_decision()
-    # function
+    # function, this is acheived by passing True as second
+    # parameter and than handled inside run_traffic() function
+    # with the ControllableEgo object
 
     run_traffic(config_manager, True)
 

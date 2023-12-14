@@ -30,7 +30,7 @@ Compliance with Open Standards: Ensure compatibility and adherence to industry o
    For example if you want to use python3.6 package for linux you would run the
    following commond from the root folder in the repo
 
-   export PYTHONPATH=$PYTHONPATH:./packages/python3.6/linux
+   export PYTHONPATH=$PYTHONPATH:./packages/python3.6/linux/aai
 
    This will make the module visible to interpreter
 
