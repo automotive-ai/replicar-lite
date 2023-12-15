@@ -35,8 +35,8 @@ Compliance with Open Standards: Ensure compatibility and adherence to industry o
    This will make the module accessible to the interpreter
 
    Note:
-   Please always use the matching interpreter version
-   For instance, in the above example, the proper Python version should be python3.6
+   Always use the matching interpreter version. For instance, in the example above,
+   the proper Python version should be Python3.6.
 
 ### License:
 To be added
