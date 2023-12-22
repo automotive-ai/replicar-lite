@@ -36,7 +36,7 @@ Python Versions: 3.6, 3.7, 3.8
 
 ### Usage:
 1) Add your_python_env/lib folder path to LD_LIBRARY_PATH env variable for Linux
-   If not already present, an example coulde
+   If not already present, an example could be
    ```
       export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:your_python_env/lib
    ```
@@ -64,3 +64,9 @@ Python Versions: 3.6, 3.7, 3.8
 - **YouTube:** [For small sneak peeks](https://www.youtube.com/@automotive-ai)
 - **LinkedIn:** [For more updates](https://www.linkedin.com/company/automotive-artificial-intelligence-aai-gmbh/)
 - **Support Email:** support@automotive-ai.com
+
+## GitHub Discussions
+Have a question, suggestion, or want to discuss something? Head over to our [GitHub Discussions](https://github.com/automotive-ai/replicar-lite/discussions) page.
+
+## GitHub Issues
+If you encounter any bugs or issues, please report them on our [GitHub Issues](https://github.com/automotive-ai/replicar-lite/issues) page.
