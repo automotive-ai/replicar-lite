@@ -26,37 +26,109 @@ The modules and classes are explained further inside example.ipynb as well.<br/>
 ![](images/aai_traffic.gif)
 
 
-### Available Versions
-Linux (Tested on Ubuntu 22.04.2 LTS)<br/>
-Python Versions: 3.6, 3.7, 3.8 
+### Linux (native)
 
-### Installation:
-1) Just clone the repo or extract the release package zip
-2) Unzip libtensorflow.zip in the root folder of repo
+Tested on Ubuntu 22.04.2 LTS. Python versions: 3.6, 3.7, 3.8.
 
-### Usage:
-1) Add your_python_env/lib folder path to LD_LIBRARY_PATH env variable for Linux
-   If not already present, an example could be
+**Installation**
+1. Clone the repo or extract the release package zip.
+2. Unzip libtensorflow.zip in the root folder of repo.
+
+**Usage**
+
+1. Add your Python env `lib` folder to `LD_LIBRARY_PATH` (if not already set):
+   ```bash
+   export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:your_python_env/lib
    ```
-      export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:your_python_env/lib
+2. Add the package path to `PYTHONPATH`.<br/>
+   From the repo root, for example for Python 3.6 on Linux:
+   ```bash
+   export PYTHONPATH=$PYTHONPATH:./packages/python3.6/linux/aai
+   ```
+   Use the interpreter version that matches the package (e.g. `conda activate py36_env` for the above).
+
+### Running on macOS
+
+The provided packages are **Linux x86_64 only**. On macOS you run the example notebook inside Docker (on Apple Silicon the image runs under emulation).
+
+---
+
+#### 1. Prerequisites
+
+| What | How |
+|------|-----|
+| **Docker** | [Docker Desktop for Mac](https://docs.docker.com/desktop/install/mac-install/) |
+| **XQuartz** (only for interactive Visualizer window) | See section 4 below |
+
+---
+
+#### 2. Installation
+
+From the repo root:
+
+1. Ensure **libtensorflow** is in the repo root: either `libtensorflow.so` or `libtensorflow.zip` (the image will unzip the zip if needed).
+2. Build the Docker image:
+
+   ```bash
+   docker build -t replicar-lite .
    ```
 
-3) Add the specific module that you want to use to the PYTHONPATH environment variable.<br/>
-   For example, if you want to use the python3.6 package for Linux, you should run <br/>
-   the following command from the root folder in the repository:
-   ```
-      export PYTHONPATH=$PYTHONPATH:./packages/python3.6/linux/aai
-   ```
-   This will make the module accessible to the interpreter
+---
 
-   Note:
-   Always use the matching interpreter version. For instance, in the example above,
-   the proper Python version should be Python3.6.
-   
-   For conda
-   ```
-      conda activate py36_env
-   ```   
+#### 3. Run headless (no display)
+
+Simulation runs; the Visualizer window is not shown.
+
+```bash
+docker run -p 8888:8888 replicar-lite
+```
+
+Open in your browser the URL printed in the logs (e.g. `http://127.0.0.1:8888/?token=...`), open `example.ipynb`, run the path cell, then the import cell.
+
+---
+
+#### 4. Run with interactive visualization
+
+To see the Visualizer window on your Mac, install and configure XQuartz once, then run the container with display forwarding.
+
+**4.1 — Install XQuartz**
+
+```bash
+brew install --cask xquartz
+```
+
+Log out and log back in (or restart), then start XQuartz:
+
+```bash
+open -a XQuartz
+```
+
+**4.2 — Allow network clients**
+
+- XQuartz menu → **Settings** (or **Preferences**) → **Security**
+- Check **Allow connections from network clients**
+- Quit XQuartz (Cmd+Q) and start it again
+
+**4.3 — Allow Docker to use your display**
+
+In a **Terminal on your Mac** (with XQuartz running):
+
+```bash
+export DISPLAY=:0
+/opt/X11/bin/xhost +localhost
+```
+
+**4.4 — Run the container with display forwarding**
+
+From the repo root:
+
+```bash
+docker run -p 8888:8888 -e DISPLAY=host.docker.internal:0 replicar-lite
+```
+
+Open the Jupyter URL from the logs in your browser, open `example.ipynb`, and run the cells that call `run_traffic(...)`. The Visualizer window appears in XQuartz.
+
+**Troubleshooting:** If the window does not appear, try `/opt/X11/bin/xhost +` (allows any host). To revoke later: `/opt/X11/bin/xhost -localhost`.
 
 ## Links
 ![](images/aai_replicar_logo.png)
