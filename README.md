@@ -60,6 +60,12 @@ The provided packages are **Linux x86_64 only**. On macOS you run the example no
 | **Docker** | [Docker Desktop for Mac](https://docs.docker.com/desktop/install/mac-install/) |
 | **XQuartz** (only for interactive Visualizer window) | See section 4 below |
 
+**Important:** Configure Docker Desktop resources before running:
+- Docker Desktop → Settings → Resources
+- Set **Memory** to at least **8GB** (recommended: 10GB+)
+- Set **Swap** to at least **2GB**
+- Click **Apply & Restart**
+
 ---
 
 #### 2. Installation
@@ -70,7 +76,7 @@ From the repo root:
 2. Build the Docker image:
 
    ```bash
-   docker build -t replicar-lite .
+   docker build --platform linux/amd64 -t replicar-lite .
    ```
 
 ---
@@ -80,10 +86,16 @@ From the repo root:
 Simulation runs; the Visualizer window is not shown.
 
 ```bash
-docker run -p 8888:8888 replicar-lite
+docker run --platform linux/amd64 -p 8888:8888 -e DISPLAY=host.docker.internal:0 replicar-lite
 ```
 
 Open in your browser the URL printed in the logs (e.g. `http://127.0.0.1:8888/?token=...`), open `example.ipynb`, run the path cell, then the import cell.
+
+**Alternative command** (if kernel restarts occur, use explicit resource limits):
+```bash
+docker run --platform linux/amd64 -p 8888:8888 --memory="8g" --cpus="4" -e DISPLAY=host.docker.internal:0 replicar-lite
+```
+Use this if you experience kernel crashes - it ensures Docker allocates sufficient resources for emulation.
 
 ---
 
@@ -123,7 +135,7 @@ export DISPLAY=:0
 From the repo root:
 
 ```bash
-docker run -p 8888:8888 -e DISPLAY=host.docker.internal:0 replicar-lite
+docker run --platform linux/amd64 -p 8888:8888 -e DISPLAY=host.docker.internal:0 replicar-lite
 ```
 
 Open the Jupyter URL from the logs in your browser, open `example.ipynb`, and run the cells that call `run_traffic(...)`. The Visualizer window appears in XQuartz.

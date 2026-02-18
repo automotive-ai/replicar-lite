@@ -38,6 +38,7 @@ RUN if [ ! -f libtensorflow.so ]; then unzip -o libtensorflow.zip && rm -f libte
 # So the notebook and native modules find packages and libtensorflow
 ENV PYTHONPATH=/workspace/packages/python3.8/linux/aai
 ENV LD_LIBRARY_PATH=/workspace:/usr/local/lib
+ENV QEMU_CPU=max
 
 EXPOSE 8888
 

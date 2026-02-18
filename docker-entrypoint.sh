@@ -1,5 +1,5 @@
 #!/bin/sh
-# If DISPLAY is not set (e.g. no X11 forwarding), use virtual display so the app runs headless.
+export PYTHONUNBUFFERED=1
 if [ -z "$DISPLAY" ]; then
   export DISPLAY=:99
   Xvfb :99 -screen 0 1024x768x24 &
