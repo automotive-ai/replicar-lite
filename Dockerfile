@@ -27,8 +27,10 @@ COPY maps ./maps
 COPY packages ./packages
 COPY images ./images
 COPY example.ipynb ./
+COPY data ./data
 COPY README.md LICENSE.md ./
 COPY docker-entrypoint.sh /docker-entrypoint.sh
+RUN apt-get update && apt-get install -y --no-install-recommends imagemagick
 RUN chmod +x /docker-entrypoint.sh
 
 # libtensorflow.so is required at runtime. Copy zip and/or .so (at least one must exist in repo root).
