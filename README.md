@@ -33,7 +33,14 @@ Tested on Ubuntu 22.04.2 LTS. Python versions: 3.6, 3.7, 3.8.
 **Installation**
 1. Clone the repo or extract the release package zip.
 2. Unzip libtensorflow.zip in the root folder of repo.
+#### Linux (native)
+Linux (Tested on Ubuntu 22.04.2 LTS)<br/>
+Python Versions: 3.8
 
+On Linux, install ImageMagick so the visualizer does not throw any error:
+```bash
+apt-get update && apt-get install -y --no-install-recommends imagemagick
+```
 **Usage**
 
 1. Add your Python env `lib` folder to `LD_LIBRARY_PATH` (if not already set):
