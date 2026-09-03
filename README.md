@@ -68,9 +68,9 @@ apt-get update && apt-get install -y --no-install-recommends imagemagick
 
 ## Links
 ![](images/aai_replicar_logo.png)
-- **Website:** [For our complete portfolio](https://www.automotive-ai.com/)
+- **Website:** [For our complete portfolio](https://www.aai-innovations.com/)
 - **YouTube:** [For small sneak peeks](https://www.youtube.com/@automotive-ai)
-- **LinkedIn:** [For more updates](https://www.linkedin.com/company/automotive-artificial-intelligence-aai-gmbh/)
+- **LinkedIn:** [For more updates](https://www.linkedin.com/company/11394271)
 - **Support Email:** support@automotive-ai.com
 
 ## GitHub Discussions
