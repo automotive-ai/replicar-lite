@@ -1,5 +1,3 @@
-![](images/aai_logo.png)
-
 # replicar-lite
 
 Our replicar-lite is designed to empower researchers and city planners with a versatile platform for traffic simulation and analysis. This library provides functionalities to simulate diverse traffic scenarios, enabling users to analyze, optimize, and evaluate traffic behaviors in various contexts.
@@ -67,11 +65,10 @@ apt-get update && apt-get install -y --no-install-recommends imagemagick
    ```   
 
 ## Links
-![](images/aai_replicar_logo.png)
 - **Website:** [For our complete portfolio](https://www.automotive-ai.com/)
 - **YouTube:** [For small sneak peeks](https://www.youtube.com/@automotive-ai)
 - **LinkedIn:** [For more updates](https://www.linkedin.com/company/automotive-artificial-intelligence-aai-gmbh/)
-- **Support Email:** support@automotive-ai.com
+- **Support Email:** support@aai-innovations.com
 
 ## GitHub Discussions
 Have a question, suggestion, or want to discuss something? Head over to our [GitHub Discussions](https://github.com/automotive-ai/replicar-lite/discussions) page.
